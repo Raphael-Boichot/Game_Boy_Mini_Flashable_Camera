@@ -97,7 +97,7 @@ Please follow the [building instructions from the original author](/Building_gui
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it. They are basically impossible to remove after.
 - I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them again. A solder bridge due to a metal particle between/below pins is very annoying to remove (you basically have to remove the whole chip to get rid of it).
 - I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
-- first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I 
+- first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will goes fine. I recommend flashing a regular rom (which fills the whole flash chip) and fill the memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 
 ## Showcase with the long board
 
