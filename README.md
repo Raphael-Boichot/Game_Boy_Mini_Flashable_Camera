@@ -33,7 +33,7 @@ Aliexpress cables are too thick and crappy for that task and you must order a ge
 
 Please follow the [building instructions from the original author](/Building_guides/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€ in 2024.
 
-**IMPORTANT note:** some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
+**IMPORTANT note:** some Game Boy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
 
 ## Component location and orientation on PCB (short and long version)
 
@@ -44,7 +44,7 @@ Please follow the [building instructions from the original author](/Building_gui
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
 |-----------|----------|-----------|----------------|-------------|------------------|
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|
-|C11, C18	|22pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
+|C11, C18	|22pF	|2	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C10	|39pF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22uF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
 |C1	|100nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|Decoupling Capacitor|
