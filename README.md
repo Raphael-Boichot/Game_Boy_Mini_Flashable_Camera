@@ -102,11 +102,11 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![](Images/Showcase_2.png)
 
-The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it.
+The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it. I've swapped with a RAMTRON and I'm 100% sure that the orientation is correct.
 
 ![](Images/Showcase_3.png)
 
-I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell.
+I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera only shell has a rotating head.
 
 ![](Images/Showcase_1.png)
 
