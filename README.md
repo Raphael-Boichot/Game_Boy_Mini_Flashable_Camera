@@ -57,7 +57,31 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
+## Overview of JLCPCB oerdering options
+
+- Base Material **FR-4**
+- Layers **2**
+- Dimensions **Auto-filled**
+- PCB Qty **As desired**
+- Product type **Industrial/Consumer electronics**
+- Different Design **1**
+- Delivery format **Single PCB**
+- PCB thickness **0.8**
+- PCB Color **As desired**
+- Silkscreen **As desired**
+- Surface Finish **ENIG**
+- Outer Copper weight **1 oz**
+- Via Covering **Tented**
+- Board Outline Tolerance **±0.2mm(Regular)**
+- Confirm Production file **No**
+- Remove Order Number **Specify a location**
+- Flying Probe Test **Fully Test**
+- Gold Fingers **Yes**
+- 30°finger chamfered **No**
+- Castellated Holes **No**
+
 ## Notes (please read completely before attempting the project)
+
 - It is not reported in the original repo but C10 capacity must be increased to remove any graphical glitch due to FRAM timing inconsistencies. You should use a 39 pf capacitor instead of a 22 pf as indicated on the original schematic. I had the exact same issue with Cypress and RAMTRON chips, so it's not chip related.
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some versions of the FM28V100-TG by Cypress semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
