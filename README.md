@@ -102,7 +102,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![](Images/Showcase_2.png)
 
-The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it. I've swapped with a RAMTRON and I'm 100% sure that the orientation is correct.
+The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it. I've swapped with a RAMTRON and I'm 100% sure that the orientation notch/dot down is correct.
 
 ![](Images/Showcase_3.png)
 
