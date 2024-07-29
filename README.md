@@ -130,9 +130,9 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 
 ## Funfacts
 - The MAC-GBD I used here came from another mod, so it was desoldered two times without that much precaution and soldered three times. On the other hand, I had one MAC-GBD dead after a single transplant (with another mod too, not this one). For this latter, I think it was yet dead on its initial board as it came from an "untested" camera (my fault). My conclusion is that the MAC-GBD is rather sturdy, but better test a camera before modding it to avoid nervous breakdown.
-- The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its value is subjected to variations along the camera mods/PCBs but the consensus is that 22 pF is very a minimal value. Maximal value that can be used is unknown (44 pF is the highest value tested so far without glitches).
+- The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its minimal value is subjected to variations along the camera mods/PCBs but the consensus is that 22 pF is very a minimal value. Maximal value that can be used is unknown (44 pF is the highest value tested so far without glitches).
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking informations from that information black hole that is Discord.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
