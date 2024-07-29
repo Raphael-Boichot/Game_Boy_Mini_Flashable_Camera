@@ -1,7 +1,7 @@
 # The Game Boy Mini Flashable Camera - a fork
 **A license free small flashable version of the original Game Boy Camera. A fork I've made for my own use but I assume it can be helpful to anyone.**
 
-The current release (1.3) has been produced, assembled and tested. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly, this project is **definitely not recommended** for beginners. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try by yourself.
+The current release (1.3) has been produced, assembled and tested. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
 
 ## Minimal hardware/soft skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
@@ -11,7 +11,7 @@ The current release (1.3) has been produced, assembled and tested. It is extreme
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software;
-- An overall skill in soldering SMD components because this is not a beginner project.
+- An overall skill in soldering SMD components because this is ***not a beginner project.*** Damaging the MAC-GBD, the flash of the FRAM chips is easy.
 - Some kapton tape (ideal) or regular thick tape to cover the PCB gold fingers.
 
 Ready to go ?
