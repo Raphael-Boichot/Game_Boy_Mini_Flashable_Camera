@@ -11,8 +11,8 @@ The current release (1.3) has been produced, assembled and tested. The board is 
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software;
-- An overall skill in soldering SMD components because this is ***not a beginner project.*** Damaging the MAC-GBD, the flash of the FRAM chips is easy.
-- Some kapton tape (ideal) or regular thick tape to cover the PCB gold fingers.
+- An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is very easy.
+- Some kapton tape (or any whatever branded polyimide equivalent) to cover the PCB gold fingers.
 
 Ready to go ?
 
