@@ -24,20 +24,20 @@ The "Longboard" version has a "neck" that allows mounting it is a regular Game B
 
 Both versions come with pads for both vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pad to avoid polarity inversion. **For the Camera+ mini shell and short PCB, it is recommended to go with the horizontal socket as there is not too much room inside.**
 
-![](/Connector.png)
+![](/Images/Connector.png)
 
 **I overall recommend to order the long board which is more versatile**. The neck is easy to break and file to make a short board from it.
 
 In case you want to mount the short PCB in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you will need a longer ribbon cable. 
 Aliexpress cables are too thick and crappy for that task and you must order a genuine JST cable. Sadly for Eu customers, the only available seller for replacement and longer cable is Digikey. Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are stiffer than the genuine cables but they can sustain the same amount of bending/torsion without damage.
 
-Please follow the [building instructions from the original author](/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€.
+Please follow the [building instructions from the original author](/Building_guides/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€.
 
 **IMPORTANT note:** some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
 
 ## Component location and orientation on PCB (short and long version)
 
-![](/Component_placement_w_components.png)
+![](Images/Component_placement_w_components.png)
 
 ## Component list (short and long version)
 
@@ -57,7 +57,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-## Overview of JLCPCB oerdering options
+## Overview of JLCPCB ordering options
 
 - Base Material **FR-4**
 - Layers **2**
@@ -100,15 +100,15 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Showcase with the long board
 
-![](/Showcase_2.png)
+![](Images/Showcase_2.png)
 
 The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it.
 
-![](/Showcase_3.png)
+![](Images/Showcase_3.png)
 
 I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell.
 
-![](/Showcase_1.png)
+![](Images/Showcase_1.png)
 
 **Some notes:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it was quite a pain to solder correctly on the traces. But as long as the chip marking begins by V6, pinout is the same.
@@ -118,7 +118,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 ## Showcase with the long board, neck broken to make it short
 
-![](/Showcase_4.png)
+![](Images/Showcase_4.png)
 
 Short version (after breaking the neck and soldering an horizontal JST connector) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's beautiful and handy to use, very great mod !
 
@@ -128,6 +128,6 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
 ## Acknowledgements
-- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting relevant informations excavated from that fucking information black hole that is Discord.
+- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking informations from that information black hole that is Discord.
 - [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
