@@ -107,12 +107,12 @@ The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch
 
 ![](Images/Showcase_3.png)
 
-I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera only shell has a rotating head.
+I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head.
 
 ![](Images/Showcase_1.png)
 
 **Some notes:**
-- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it was quite a pain to solder correctly on the traces. But as long as the chip marking begins by V6, pinout is the same.
+- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a single 39 pf instead of a 22 pf for C10 (44 pf does not exist).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used old new stock Panasonic MA784 Schottky diode because I bough some for no reason years ago.
