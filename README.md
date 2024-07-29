@@ -95,8 +95,9 @@ Please follow the [building instructions from the original author](/Building_gui
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot. A multimeter is mandatory too in case of issue.
 - The ENIG finish can be hard to "wet" depending on the flux used. I used a BEEYUIHF #8403 no clean flux in syringe and was very great in my case (good wetting, easy to clean, not greasy and no headache after soldering contrary to some other el cheapo Aliexpress brands in metal containers I used to spread before).
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it. They are basically impossible to remove after.
-- I also recommend to clean with flux/solder wick and and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them again.
-- I've soldered the components in this order: Chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
+- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them again. A solder bridge due to a metal particle between/below pins is very annoying to remove (you basically have to remove the whole chip to get rid of it).
+- I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
+- first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I 
 
 ## Showcase with the long board
 
