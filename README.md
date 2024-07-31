@@ -134,5 +134,5 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking informations from that information black hole that is Discord.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition while being insulted all along the process by a "self made" asshole of the Game Boy modding community. Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition while being insulted all along the process by a quite famous scumbag of the Game Boy modding community. Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
