@@ -133,6 +133,6 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 - The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its minimal value is supposed to be 22 pF, but caps have tolerance... Maximal value that can be used is unknown (44 pF is the highest value tested so far without glitches).
 
 ## Acknowledgements
-- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking informations from that information black hole that is Discord.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition while being insulted all along the process by a quite famous scumbag of the [Game Boy modding clique](https://youtu.be/ETxmCCsMoD0?si=nvNxrvqUxICQ9ymR). Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
+- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition despite being insulted all along the process by a quite famous scumbag of the [Game Boy modding clique](https://youtu.be/ETxmCCsMoD0?si=nvNxrvqUxICQ9ymR). Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
