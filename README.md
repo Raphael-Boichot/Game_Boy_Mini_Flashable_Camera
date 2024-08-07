@@ -19,7 +19,7 @@ The current release has been produced, assembled, tested and bullet proofed. The
 - An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is very easy.
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers.
 
-Ready to go ?
+**Now ready to go ?**
 
 ## What to fit it with
 
