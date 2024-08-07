@@ -86,7 +86,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ## Notes (please read completely before attempting the project)
 
-- It is not reported in the original repository but C10, C11 and C18 capacity must be increased to remove any graphical glitch due to FRAM timing inconsistencies. You should use 39 pf capacitors instead of 22 pf as indicated on the original schematic. I had the exact same issue with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related).
+- C10, C11 and C18 capacity has been increased compared to the original design to remove any graphical glitch due to FRAM timing inconsistencies. I had the exact same issue by doing the original design with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related). It is now perfectly OK with the new cap value.
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some late versions of the FM28V100-TG by Cypress Semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
@@ -117,7 +117,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 **Some notes:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a 39 pf instead of a 22 pf for C10 (44 pf does not exist). As C11 and C18 as less critical and to avoid too many different cap references, they are also increased to 39 pf.
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 as less critical and to avoid too many different cap references, they are also increased to 39 pf (which is tested and OK).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
@@ -134,7 +134,7 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 
 ## Funfacts
 - The MAC-GBD I used here came from another mod, so it was desoldered two times without that much precaution and soldered three times. On the other hand, I had one MAC-GBD dead after a single transplant (with another mod too, not this one). For this latter, I think it was yet dead on its initial board as it came from an "untested" camera (with traces of liquid damage). My conclusion is that the MAC-GBD is rather sturdy, but better test a camera before modding it to avoid nervous breakdown.
-- The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its minimal value is supposed to be 22 pF, but caps have tolerance... Maximal value that can be used is unknown (44 pF is the highest value tested so far without glitches).
+- The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its very minimal value is supposed to be 22 pF, but caps and design have tolerances... So better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
