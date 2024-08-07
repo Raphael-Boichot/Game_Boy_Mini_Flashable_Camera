@@ -133,7 +133,7 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
 ## Funfacts
-- The MAC-GBD I used here came from another mod, so it was desoldered two times without that much precaution and soldered three times. On the other hand, I had one MAC-GBD dead after a single transplant (with another mod too, not this one). For this latter, I think it was yet dead on its initial board as it came from an "untested" camera (with traces of liquid damage). My conclusion is that the MAC-GBD is rather sturdy, but better test a camera before modding it to avoid nervous breakdown.
+- The MAC-GBD I used here came from another mod, so it was desoldered two times without that much precaution and soldered three times. My conclusion is that the MAC-GBD is rather sturdy.
 - The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its very minimal value is supposed to be 22 pF, but caps and design have tolerances... So better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
