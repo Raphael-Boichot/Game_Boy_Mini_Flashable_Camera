@@ -1,12 +1,12 @@
 # The Game Boy Mini Flashable Camera - a friendly fork
 **A license free small flashable version of the original Game Boy Camera. A fork I've made for my own use but I assume it can be helpful to anyone.**
 
-The current release (1.3) has been produced, assembled and tested. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
+The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to avoig image artifacts;
-- The project now contains enough informations to be made without help.
+- The project now contains enough informations to be made without help like a big boy.
 
 ## Minimal hardware/soft skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
