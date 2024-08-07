@@ -3,6 +3,11 @@
 
 The current release (1.3) has been produced, assembled and tested. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
 
+## What have been changed compared to the main branch ?
+- Inconsistencies between BOM and schematic have been fixed;
+- All 22 pf caps have been replaced with 39 pf to avoig image artifacts;
+- The project now contains enough informations to be made without help.
+
 ## Minimal hardware/soft skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
 - A 60W soldering iron with a fine tip and a temperature setting;
@@ -44,8 +49,7 @@ Please follow the [building instructions from the original author](/Building_gui
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
 |-----------|----------|-----------|----------------|-------------|------------------|
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|
-|C11, C18	|22pF	|2	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
-|C10	|39pF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
+|C10, C11, C18	|39pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22uF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
 |C1	|100nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|Decoupling Capacitor|
 |D1	|N/A	|1	|SOT-23	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
@@ -82,7 +86,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ## Notes (please read completely before attempting the project)
 
-- It is not reported in the original repo but C10 capacity must be increased to remove any graphical glitch due to FRAM timing inconsistencies. You should use a 39 pf capacitor instead of a 22 pf as indicated on the original schematic. I had the exact same issue with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related).
+- It is not reported in the original repository but C10, C11 and C18 capacity must be increased to remove any graphical glitch due to FRAM timing inconsistencies. You should use 39 pf capacitors instead of 22 pf as indicated on the original schematic. I had the exact same issue with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related).
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some late versions of the FM28V100-TG by Cypress Semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
@@ -113,7 +117,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 **Some notes:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a single 39 pf instead of a 22 pf for C10 (44 pf does not exist).
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a 39 pf instead of a 22 pf for C10 (44 pf does not exist). As C11 and C18 as less critical and to avoid too many different cap references, they are also increased to 39 pf.
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
