@@ -117,7 +117,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 **Some notes:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 as less critical and to avoid too many different cap references, they are also increased to 39 pf (which is tested and OK).
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 are less critical than C10 and to avoid too many different cap references, they were also increased to 39 pf (which is validated as working on my side).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
