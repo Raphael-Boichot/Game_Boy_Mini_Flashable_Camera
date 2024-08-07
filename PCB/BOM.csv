@@ -1,12 +1,11 @@
 Value;Count;References;Footprint;Name;Description;;Inverter Alternatives:
-10nF;14;C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;74LVC1G06SE-7
-22pF;2;C11, C18;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;74AHC1G04SE-7 
-39 pf;1;C10;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;M74VHC1GU04DF1G
-22uF;1;C17;1206 (imperial);Capacitor Tantalum (?10%);Filtering Capacitor;;TC7S04FU,LF 
-100nF;1;C1;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;
+10 nF;14;C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;74LVC1G06SE-7
+39 pf;3;C10, C11, C18;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;74AHC1G04SE-7 
+22 uF;1;C17;1206 (imperial);Capacitor Tantalum (?10%);Filtering Capacitor;;M74VHC1GU04DF1G
+100 nF;1;C1;0603 (imperial);Capacitor Ceramic (X7R);Decoupling Capacitor;;TC7S04FU,LF 
 N/A;1;D1;SOT-23;BAT54W-HG3-18 (or BAT 63-02V H6327 );Schottky diode;;
 N/A;1;J2;N/A;JST ZH1.5mm (9 pins);Camera Connector (male);;
-1kOhm;1;R1;0603 (imperial);Resistor;Resistor;;
+1 kOhm;1;R1;0603 (imperial);Resistor;Resistor;;
 N/A;1;U1;TQFP-100 (14x14mm);MAC-GBD from original cart;Main gamecart mapper chip;;
 N/A;1;U2; SC-88A-5 ;M74VHC1GU04DFT1G-L22038;Signal inverter;;
 N/A;1;U3;TSOP-I-32 (12.4x8mm);FM28V100-TG ;FRAM;;

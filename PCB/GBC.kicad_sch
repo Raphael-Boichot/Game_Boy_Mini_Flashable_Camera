@@ -9,7 +9,7 @@
 		(date "2024-07-26")
 		(rev "B")
 		(company "Made by 2BitWizard")
-		(comment 1 "C10 modified by Raphaël BOICHOT")
+		(comment 1 "C10, C11 and C18 modified by Raphaël BOICHOT")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x09_Male"
@@ -10076,7 +10076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "39p"
 			(at 275.59 95.25 0)
 			(effects
 				(font
@@ -11661,7 +11661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "39p"
 			(at 205.74 91.44 0)
 			(effects
 				(font
