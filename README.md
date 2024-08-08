@@ -106,7 +106,7 @@ Please follow the [building instructions from the original author](/Building_gui
 - I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
 - first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 
-## Showcase with the long board
+## Showcase with the long board attached to a GBxCart for flashing
 
 ![](Images/Long_board.png)
 
