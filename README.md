@@ -1,6 +1,8 @@
 # The Game Boy Mini Flashable Camera - a friendly fork
 **A license free small flashable version of the original Game Boy Camera. A fork I've made for my own use but I assume it can be helpful to anyone.**
 
+![](/Images/Short_board.jpg)
+
 The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
 
 ## What have been changed compared to the main branch ?
