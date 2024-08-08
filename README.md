@@ -142,7 +142,7 @@ The use of a lens mod improves drastically the quality of image taken.
 
 ## Funfacts
 - The MAC-GBD I used here came from another janky mod, so it was desoldered two times without that much precaution and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather forgiving in term of thermal budget.
-- The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps have their own tolerances (in particular the crap from Aliexpress). So better choose a capacity far enough from that minimal value.
+- The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps have their own tolerances (in particular if you are addicted to the crap from Aliexpress like me). So better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
