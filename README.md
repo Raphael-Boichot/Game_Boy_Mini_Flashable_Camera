@@ -19,7 +19,8 @@ The current release has been produced, assembled, tested and bullet proofed. The
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software;
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
-- Fine twizzers to handle the tiny components.
+- Fine twizzers to handle the tiny components;
+- 3 hours of free time with your prefered music in background;
 - An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is very easy.
 
 **Now ready to go ?**
@@ -105,6 +106,7 @@ Please follow the [building instructions from the original author](/Building_gui
 - I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
 - I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
 - first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
+- As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
 
 ## Showcase with the long board attached to a GBxCart for flashing
 
