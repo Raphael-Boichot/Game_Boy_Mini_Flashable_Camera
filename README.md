@@ -109,6 +109,7 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 - I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
 - first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
+- I learnt soldering surface mount stuff by just watching the [Ben Heck hacks](https://www.youtube.com/watch?v=oGB7Yrbeo_Y) on Youtube, so it's not rocket science either. I only had basic skill in soldering prior of that and it was enough to start modding without too much difficulty. Hardware is the key (good iron, good solder, good flux, good magnifying device) as soldering surface mount stuff is not forgiving. Best is to start playing with a whatever dead PCB, no need to buy online pointless soldering kits.
 
 ## Showcase with the long board attached to a GBxCart for flashing
 
