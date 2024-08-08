@@ -3,7 +3,7 @@
 
 ![](/Images/Short_board.jpg)
 
-The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested, may or may not work, try them by yourself.
+The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (Cyclones, GB Operator, Sanni Cart Reader, etc.) were not tested, try them by yourself.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
@@ -17,7 +17,7 @@ The current release has been produced, assembled, tested and bullet proofed. The
 - Good quality solder wire/flux or solder paste and solder wick;
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
-- A GBxCart flasher and FlashGBX software;
+- A GBxCart flasher and FlashGBX software. Other flashers may or may not work;
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components;
 - 3 hours of free time with your prefered music in background;
@@ -65,7 +65,7 @@ Please follow the [building instructions from the original author](/Building_gui
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not stupidly small caps like 0402 which are just meant to punish modders. The only scaring component is the signal inverter (SC-88A is not a comfortable package).
+The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not stupidly small caps like 0402 which are just meant to punish modders. The only scaring component is the signal inverter (SC-88A is not the most comfortable package to handle).
 
 ## Overview of JLCPCB ordering options
 
@@ -99,17 +99,17 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 - Low voltage Schottky diode can also be hard to source but any equivalent one will do the job (there are many). The original camera used a Panasonic MA784 with marking **2D** (discontinued), among other undocumented variations, you can take inspiration from its datasheet. The RB510VM-30 is a possible replacement for example. It must have the lowest possible forward voltage drop. Its role is to protect the MAC-GBD internal analog to digital converter from any overvoltage, so the anode is connected to VOUT (1V5 in the schematic) and the cathode to 3.0V. It triggers at around 3.18V on the anode.
 - Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one.
 - You can easily desolder the MAC-GBD by using a hot air gun (set at about 350°C) on the back side of the original board until the chip falls by itself or after a gentle shaking. This is by far the most secure way I've found (I do not own a heating plate). I do not recommend using low temp solder or other bismuth containing crap. No need. The author of the original project recommends using a heating plate set at 250°C. In any case, work fast to minimize at most heat budget on the chips.
-- Lead free solder in wire can be crap depending on the alloy and could be a pain to use due to high melting point. Either use old good lead/tin alloy with flux core (and a ton of flux anyway) if you can find some or quality lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
+- Lead free solder in wire can be crap depending on the alloy and could be a pain to melt due to high melting point. Either use old good lead/tin alloy with flux core (and a ton of flux anyway) if you can find some or quality lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
 - The ferrite beads filters have been removed from the definitive PCB even if they are still mentioned in the pdf description of the project.
 - The schematic is clear and comprehensive enough to troubleshoot any issue by yourself with a multimeter in continuity mode. Easy check: the caps must **never** be shorted, two adjacent pins of the FRAM and flash memory must never be shorted. After that, any remaining issue is a just a matter of flow and reflow due to a dry solder joint.
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot.
 - The ENIG finish can be hard to "wet" with solder depending on the flux used. I used a BEEYUIHF #8403 "no clean" flux in syringe which was very great in my case (good flux wetting, easy to "no clean" with isopropanol, not greasy and no headache after long soldering sessions contrary to some other el cheapo Aliexpress fluxes in metal containers I used to spread before).
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it. They are basically impossible to remove after, so better avoid them.
 - I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
-- I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check dry solder joints and shorts.
+- I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check for dry solder joints and obvious shorts.
 - first connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
-- I learnt soldering surface mount stuff by just watching the [Ben Heck hacks](https://www.youtube.com/watch?v=oGB7Yrbeo_Y) on Youtube, so it's not rocket science either. I only had basic skill in soldering prior of that and it was enough to start modding without too much difficulty. Hardware is the key (good iron, good solder, good flux, good magnifying device) as soldering surface mount stuff is not forgiving. Best is to start playing with a whatever dead PCB, no need to buy online pointless soldering kits.
+- I learnt soldering surface mount stuff by just watching the [Ben Heck hacks](https://www.youtube.com/watch?v=oGB7Yrbeo_Y) on Youtube, so it's not rocket science either. I only had basic skill in soldering prior of that and it was enough to start modding without too much difficulty. Hardware is the key (good iron with temperature control, good solder, good flux, accurate magnifying device) as soldering surface mount stuff is not forgiving. Best is to start playing with a whatever dead PCB, no need to buy online soldering kits that will end in a drawer.
 
 ## Showcase with the long board attached to a GBxCart for flashing
 
