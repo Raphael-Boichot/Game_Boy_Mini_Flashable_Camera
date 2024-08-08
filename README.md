@@ -129,7 +129,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 ![](Images/Mini_camera_shell.png)
 
-Short version (after breaking the neck and soldering an horizontal JST connector) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's beautiful and handy to use, very great mod !
+Short version (after breaking the neck, soldering an horizontal JST connector and going with definitive capacitor set) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use.
 
 ![](Images/Image_example.png)
 
@@ -142,9 +142,9 @@ The use of a lens mod improves drastically the quality of image taken.
 
 ## Funfacts
 - The MAC-GBD I used here came from another janky mod, so it was desoldered two times without that much precaution and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather sturdy.
-- The C10 "magic cap" is a well-worn subject of discussion among camera modders. Its very minimal value is supposed to be 22 pF, but caps and design have tolerances... So better choose a capacity far enough from that minimal value.
+- The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps and design have tolerances... So better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition despite being insulted all along the process on Discord by a well known scumbag of the [Game Boy modding clique](https://youtu.be/ETxmCCsMoD0?si=nvNxrvqUxICQ9ymR), without any mod feeling "uncomfortable" with that. Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition despite being insulted all along the process on Discord by a well known scumbag of the [Game Boy modding clique](https://youtu.be/ETxmCCsMoD0?si=nvNxrvqUxICQ9ymR), without any moderator feeling "uncomfortable" with that. Thanks also for sending me some early prototypes for testing long before I found time to dive into the project. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
