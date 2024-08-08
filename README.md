@@ -44,11 +44,11 @@ Please follow the [building instructions from the original author](/Building_gui
 
 **IMPORTANT note:** some Game Boy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
 
-## Component location and orientation on PCB (short and long version)
+## Component location and orientation on PCB
 
 ![](Images/Component_placement_w_components.png)
 
-## Component list (short and long version)
+## Component list (BOM)
 
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
 |-----------|----------|-----------|----------------|-------------|------------------|
@@ -64,6 +64,8 @@ Please follow the [building instructions from the original author](/Building_gui
 |U3	|N/A	|1	|TSOP-I-32 (12.4x8mm)	|FM28V100-TG 	|FRAM|
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
+
+The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not stupidly small caps like 0402 which are just meant to punish modders. The only scaring component is the signal inverter.
 
 ## Overview of JLCPCB ordering options
 
