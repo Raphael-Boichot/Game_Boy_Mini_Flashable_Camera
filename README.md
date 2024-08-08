@@ -18,8 +18,9 @@ The current release has been produced, assembled, tested and bullet proofed. The
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software;
+- Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
+- Fine twizzers to handle the tiny components.
 - An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is very easy.
-- Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers.
 
 **Now ready to go ?**
 
@@ -88,7 +89,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ## Notes (please read completely before attempting the project)
 
-- C10, C11 and C18 capacity has been increased compared to the original design to remove any graphical glitch due to FRAM timing inconsistencies. I had the exact same issue by doing the original design with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related). It is now perfectly OK with the new cap value.
+- C10, C11 and C18 capacity has been increased compared to the original design to remove any graphical glitch due to FRAM timing inconsistencies. I had the exact same issue by doing the original design with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related). It is now perfectly OK with the cap values proposed in this fork.
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some late versions of the FM28V100-TG by Cypress Semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
@@ -107,21 +108,21 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ## Showcase with the long board
 
-![](Images/Showcase_3.png)
+![](Images/Long_board.png)
 
-I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head.
+I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel.
 
-![](Images/Showcase_1.png)
+![](Images/While_troubleshooting.png)
 
-**Some notes:**
+**Some notes on my build:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 are less critical than C10 and to avoid too many different cap references, they were also increased to 39 pf (which is validated as working on my side).
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
 ## Showcase with the long board, neck broken to make it short
 
-![](Images/Showcase_4.png)
+![](Images/Mini_camera_shell.png)
 
 Short version (after breaking the neck and soldering an horizontal JST connector) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's beautiful and handy to use, very great mod !
 
