@@ -65,7 +65,7 @@ Please follow the [building instructions from the original author](/Building_gui
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not stupidly small caps like 0402 which are just meant to punish modders. The only scaring component is the signal inverter.
+The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not stupidly small caps like 0402 which are just meant to punish modders. The only scaring component is the signal inverter (SC-88A is not a comfortable footprint).
 
 ## Overview of JLCPCB ordering options
 
