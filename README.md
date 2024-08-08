@@ -120,7 +120,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
-## Showcase with the long board, neck broken to make it short
+## Showcase with the Camera+ Mini shell
 
 ![](Images/Mini_camera_shell.png)
 
