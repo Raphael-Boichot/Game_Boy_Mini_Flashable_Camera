@@ -119,9 +119,9 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 ![](Images/While_troubleshooting.png)
 
-**Some notes on my initial build:**
-- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, pinout is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side).
+**Some notes on my initial build and playing with capacitors:**
+- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip is the same.
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side (I must precise that did not specifically order X7R caps but was working at "room temperature"). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried 39 pf caps and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
 
@@ -142,7 +142,7 @@ The use of a lens mod improves drastically the quality of image taken.
 
 ## Funfacts
 - The MAC-GBD I used here came from another janky mod, so it was desoldered two times without that much precaution and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather forgiving in term of thermal budget.
-- The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps have their own tolerances (in particular if you are addicted to the crap from Aliexpress like me). So better choose a capacity far enough from that minimal value.
+- The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps have their own tolerances (in particular if you are addicted to the crap from Aliexpress like me). So my conclusion: better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
