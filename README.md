@@ -144,7 +144,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 
 ## Funfacts
 - The MAC-GBD I used here came from another janky mod, so it was desoldered two times without that much precaution and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather forgiving in term of thermal budget.
-- I was harassed online by the author of the "rival" mod who is a real scumbag and had to open two lawsuits for defamation against him (because this fucker cites my real name). The cases were acknowledged by a European court and are still ongoing to the date. Legal procedure is slow but hand of justice is ruthless.
+- I was harassed online by the author of the "rival" mod who is a real scumbag and had to open two lawsuits for defamation against him (because this fucker cites my real name in his droppings on X). The cases were acknowledged by a European court and are still ongoing to the date. Legal procedure is slow but hand of justice is ruthless.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me links to some references lost on the internet.
