@@ -131,7 +131,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 ![](Images/Mini_camera_shell.png)
 
-Short version (after breaking the neck, soldering an horizontal JST connector and going with definitive capacitor set) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use.
+Short version (after breaking the neck, soldering an horizontal JST connector and going with definitive capacitor values given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use.
 
 ![](Images/Image_example.png)
 
