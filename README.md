@@ -48,6 +48,8 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![](Images/Component_placement_w_components.png)
 
+It's not an interactive BOM, I'm too poor for that.
+
 ## Component list (BOM)
 
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
