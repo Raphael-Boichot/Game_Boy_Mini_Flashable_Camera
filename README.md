@@ -147,6 +147,6 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The C10 "magic cap" was a well-worn subject of discussion among camera modders on Discord. Its very minimal value is supposed to be 22 pF, but caps have their own tolerances (in particular if you are addicted to the crap from Aliexpress like me). So my conclusion: better choose a capacity far enough from that minimal value.
 
 ## Acknowledgements
-- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by extracting lacking steps from that information black hole that is Discord.
+- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some lacking steps and references.
 - [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing, unfortunately long before I found time to dive into the project.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
