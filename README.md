@@ -135,7 +135,7 @@ Short version (after breaking the neck, soldering an horizontal JST connector an
 
 ![](Images/Image_example.png)
 
-The use of a lens mod improves drastically the quality of image taken.
+Some pictures made with the device: the use of a lens mod improves drastically the quality of image taken.
 
 **Some notes about the Camera+ Mini shell:**
 - I've ordered [this version of the Camera+ Mini shell](/Shell) at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this.
