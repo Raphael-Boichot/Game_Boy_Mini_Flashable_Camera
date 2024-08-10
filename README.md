@@ -2,7 +2,7 @@
 
 **A license free small flashable version of the original Game Boy Camera. A fork I've made for my own use but I assume it can be helpful to anyone wanting to do a flashable camera mod without having to seek for help online or give money to some sponsored asshole.**
 
-**The license (or absence of) allows you to do what you want with your device: sell it, destroy it in a plasma torch, copy it, criticize it, author does not care, you won't end on fucking wall of shame for that.**
+**The license (or absence of) allows you to do what you want with your device: sell it, destroy it, copy its design, criticize it, author does not care, you won't end on fucking wall of shame for that.**
 
 ![](/Images/Short_board.jpg)
 
