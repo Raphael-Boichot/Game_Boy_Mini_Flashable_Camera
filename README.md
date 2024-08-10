@@ -143,7 +143,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The C/CS mount I bought was way to large in diameter to enter the front hole so I had to file it manually until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
-## Funfacts
+## (Fun)facts
 - The MAC-GBD I used here came from a PCB hosting the "rival" flashable camera mod because I definitely wanted to get rid of the last one I owned (it was just rotting in my electronic junk box). The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
 - 2BitWizard and I were copiously insulted online by the author of the "rival" flashable camera mod. This was probably my reward for making his mod for free many times, helping dozens of other modders troubleshooting it, and participating actively to the development of [Photo!](https://github.com/untoxa/gb-photo), the custom camera rom going initially only with his mod. I had to open several lawsuits for online defamation against him. I'm now **very pissed** with all of that because it maked me loose my precious time filling all that administrative shit to apply for lawsuits (even if I was very well helped by local GDPR lawyers). **You can see this fork as a way to help people switching to the 2BitWizard's mod, definitively.**
 
