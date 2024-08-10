@@ -144,7 +144,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
 ## Funfacts
-- The MAC-GBD I used here came from a PCB hosting the "rival" flashable camera mod because I definitely wanted to get rid of the last one I owned rotting in my drawers. The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather forgiving in term of thermal budget.
+- The MAC-GBD I used here came from a PCB hosting the "rival" flashable camera mod because I definitely wanted to get rid of the last one I owned (it was just rotting in my electronic junk box). The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD is rather forgiving in term of thermal budget.
 - I was harassed online by the author of the "rival" flashable camera mod who is a real asshole. This was probably my reward for making his mod for free many times, helping dozens of other modders, and participating actively to the development of [Photo!](https://github.com/untoxa/gb-photo), the custom camera rom. I had to open several lawsuits for defamation against him. Defamation was easily confirmed by a European court in application of the [GDPR](https://gdpr-info.eu/), for each reported citation. Legal procedure is still ongoing today because social media head offices are located in the US. Anyway, I'm now very pissed with all that shit. You can see this fork as a way to definitely help people switching to the 2BitWizard's mod.
 
 ## Acknowledgements
