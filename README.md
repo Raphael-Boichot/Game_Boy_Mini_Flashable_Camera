@@ -21,8 +21,8 @@ The current release has been produced, assembled, tested and bullet proofed. The
 - A GBxCart flasher and FlashGBX software. Other flashers may or may not work;
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components;
-- 3 hours of free time with your prefered music in background and no kids skweaking around;
-- An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is very easy.
+- 3 hours of free time with your prefered music in background and no kids whining around;
+- An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD, the flash or the FRAM chips beyond repair is easy.
 
 **Now ready to go ?**
 
