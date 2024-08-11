@@ -2,7 +2,8 @@
 
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made for my own convenience as the main branch is short with details, but I assume it can be helpful to anyone wanting to do a flashable camera mod without having to seek for help online. The license (or absence of) allows you to do what you want with your device: selling it, offering service for doing the mod, modifying it starting from the [schematic](/PCB/Schematic.pdf), it's up to you.**
 
-![](/Images/Short_board.jpg)
+![game boy camera flashable](/Images/Short_board.jpg)
+Isn't it gorgeous in purple ?
 
 The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (Cyclones, GB Operator, Sanni Cart Reader, etc.) were not tested, try them by yourself.
 
@@ -47,7 +48,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ## Component location and orientation on PCB
 
-![](Images/Component_placement_w_components.png)
+![game boy camera flashable](Images/Component_placement_w_components.png)
 
 It's not an interactive BOM sorry, I'm too cheap for that.
 
@@ -116,7 +117,7 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 
 ## Showcase with the long board attached to a GBxCart for flashing
 
-![](Images/Long_board.png)
+![game boy camera flashable](Images/Long_board.png)
 
 I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel.
 
@@ -130,7 +131,7 @@ I've ordered the long board to fit it initially in a regular camera shell. It ca
 
 ## Showcase with the Camera+ Mini shell
 
-![](Images/Mini_camera_shell.png)
+![game boy camera flashable](Images/Mini_camera_shell.png)
 
 Short version (made after breaking the neck of a long version, soldering an horizontal JST connector and going with the definitive capacitor set given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend.
 
