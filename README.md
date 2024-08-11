@@ -3,7 +3,7 @@
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made for my own convenience as the main branch is short with details. I assume it can be helpful to anyone wanting to do a flashable camera mod without having to seek for help online (which is my case). The license (rather the absence of it) allows you to do what you want with your mod: selling it, offering service for doing the mod, modifying it starting from the [schematic](/PCB/Schematic.pdf), make a nice gift, it's up to you.**
 
 ![game boy camera flashable](/Images/Short_board.jpg)
-Isn't it gorgeous in purple ?
+**Isn't this gorgeous in purple ?**
 
 The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (Cyclones, GB Operator, Sanni Cart Reader, etc.) were not tested, try them by yourself.
 
