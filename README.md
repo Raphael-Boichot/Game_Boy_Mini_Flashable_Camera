@@ -69,7 +69,7 @@ It's not an interactive BOM sorry, I'm too cheap for that.
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not sadistic small caps like the 0402. The only intimidating component is the tiny signal inverter (SC-88A is indeed not the most comfortable package to handle I must admit).
+The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not sadistic small caps like the 0402 size. The only intimidating component is the tiny signal inverter (SC-88A is indeed not the most comfortable package to handle I must admit).
 
 ## Overview of JLCPCB ordering options
 
@@ -119,11 +119,12 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 
 ![game boy camera flashable](Images/Long_board.png)
 
-I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel.
+I've ordered a set of long boards to fit them initially in regular camera shells. The long board can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel.
+
+## The story within the story
 
 ![](Images/While_troubleshooting.png)
 
-**Some notes on my initial build and playing with capacitors:**
 - I've received the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip is the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Divinding the capacitance by two made glitches worse. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
