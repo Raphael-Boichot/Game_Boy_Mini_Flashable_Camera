@@ -1,6 +1,6 @@
 # The Game Boy Mini Flashable Camera - a friendly fork
 
-**A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made for my own convenience but I assume it can be helpful to anyone wanting to do a flashable camera mod without having to seek for help online. The license (or absence of) allows you to do what you want with your device: selling it, offering service for doing the mod, modifying it starting from the [schematic](/PCB/Schematic.pdf), it's up to you.**
+**A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made for my own convenience as the main branch is short with details, but I assume it can be helpful to anyone wanting to do a flashable camera mod without having to seek for help online. The license (or absence of) allows you to do what you want with your device: selling it, offering service for doing the mod, modifying it starting from the [schematic](/PCB/Schematic.pdf), it's up to you.**
 
 ![](/Images/Short_board.jpg)
 
