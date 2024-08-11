@@ -119,7 +119,7 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 
 ![game boy camera flashable](Images/Long_board.png)
 
-I've ordered a set of long boards to fit them initially in regular camera shells. The long board can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel.
+I've ordered a set of long boards to fit them initially in regular camera shells. The long board can be broken at the "neck" to fit a shorter shell. Important reminder: there are no shell mods allowing selfies, the regular camera shell only has a rotating head. The image shown here was taken while troubleshooting C10, so the two caps mounted in parallel (see next section).
 
 ## The story within the story
 
