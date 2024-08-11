@@ -43,13 +43,13 @@ Aliexpress cables are too thick and crappy for that task and you must order a ge
 
 Please follow the [building instructions from the original author](/Building_guides/build.pdf) (also given in next section) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€ in 2024.
 
-**IMPORTANT note:** some Game Boy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
+**IMPORTANT note:** some Game Boy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is not connected on the new 3V0 regulator.
 
 ## Component location and orientation on PCB
 
 ![](Images/Component_placement_w_components.png)
 
-It's not an interactive BOM, I'm too cheap for that, sorry.
+It's not an interactive BOM sorry, I'm too cheap for that.
 
 ## Component list (BOM)
 
