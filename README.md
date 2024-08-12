@@ -50,7 +50,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![game boy camera flashable](Images/Component_placement_w_components.png)
 
-It's not an interactive BOM sorry, I'm too cheap for that.
+It's not an interactive BOM sorry, I'm too cheap for that. If you are colorblind, please refer to the next table which is the same.
 
 ## Component list (BOM)
 
