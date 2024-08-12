@@ -147,7 +147,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 
 ## Funfacts
 - The MAC-GBD I used here was hosted on three different PCBs. The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
-- Interestingly enough, this mod was started completely from scratch by reverse engineering the Game Boy Camera PCB and ended as a quite different design (closer to the original PCB) compared to the other known flashable camera mod. You can read the whole making of [here](/Building_guides/Micro_Camera_II.pdf), which is super interesting to understand the choice of components.
+- Interestingly enough, this mod was started completely from scratch by reverse engineering the Game Boy Camera PCB and ended as a quite clever design (close to the original PCB but much simplier) using only new parts (apart from the MAC-GBD of course). You can read the whole making of [here](/Building_guides/Micro_Camera_II.pdf), which is super interesting to understand the choice of components.
 - The project was literally plagued on my side due to several order issues, endless shipping delays and need for schematic update. Overall, more than two months passed from the first order to the project completion. But it really deserved the effort. I hope you will have fun doing this mod now.
   
 ## Acknowledgements
