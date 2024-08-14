@@ -147,7 +147,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 **Some notes about the Camera+ Mini shell:**
 - I've ordered [this version of the Camera+ Mini shell](/Shell) at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this.
 - The C/CS mount I bought was way to large to enter the front hole so I had to file its external diameter until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
-- CS lens (CCTV) are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm]() which covers 99% of my needs.
+- CS lens are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10.
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
 ## Funfacts
