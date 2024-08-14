@@ -1,4 +1,4 @@
-# The Game Boy Mini Flashable Camera - a friendly fork
+# The Game Boy Mini Flashable Camera - a comprensive fork
 
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made to render the project doable without extensive help. All necessary informations are there.**
 
@@ -147,8 +147,8 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 **Some notes about the Camera+ Mini shell:**
 - I've ordered [this version of the Camera+ Mini shell](/Shell) at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this.
 - The C/CS mount I bought was way to large to enter the front hole so I had to file its external diameter until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
-- CS lens are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10.
-- The mod does reuse only screws from the genuine camera shell, which is great !
+- CS lens are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10 (5 mm with Game Boy Camera sensor is equivalent to 50 mm with full frame sensor).
+- The mod does reuse only screws from the genuine camera shell, which is clever ! You just need some 5 minutes epoxy for gluing the C/CS mount and nothing else.
 
 ## Funfacts
 - The MAC-GBD I used here was hosted on three different PCBs. The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
