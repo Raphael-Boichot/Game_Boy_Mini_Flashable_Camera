@@ -12,7 +12,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts;
-- The project now contains all necessary informations to be made without help from the author.
+- The project now contains all necessary informations to be made without bothering the author.
 
 ## Minimal hardware/soft skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
