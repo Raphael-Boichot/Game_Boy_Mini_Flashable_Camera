@@ -71,7 +71,7 @@ It's not an interactive BOM sorry, I'm too cheap for that. If you are colorblind
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not sadistic small caps like the 0402 package.
+The PCB was designed on purpose with "big" surface mount components. Sadistic small caps like the 0402 footprint has been avoided on purpose.
 
 ## Overview of JLCPCB ordering options
 
@@ -112,11 +112,11 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot.
 - The PCB ENIG finish can be hard to "wet" with solder depending on the flux used. I used a BEEYUIHF #8403 "no clean" flux in syringe which was OK in my case (good flux wetting, easy to "no clean" with isopropanol, not greasy and no headache after long soldering sessions contrary to some other el cheapo Aliexpress fluxes in metal containers I used to spread before).
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it during soldering. They are basically impossible to remove after, so better avoid them.
-- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly under microscope the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
-- I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check for dry solder joints and obvious shorts.
+- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly under microscope the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a tiny ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
+- I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with a dip in isopropanol to get a clear view of the work and check for dry solder joints and obvious shorts.
 - First connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
-- I learnt soldering surface mount stuff by just watching the [Ben Heck hacks](https://www.youtube.com/watch?v=oGB7Yrbeo_Y) on Youtube (but you certainly have your favorite gen Z youtuber doing the same), so it's not rocket science either. I only had basic skill in soldering and it was enough to start modding without too much difficulty. Hardware is the key (good iron with temperature control, good solder alloy, good flux, accurate magnifying device) as soldering surface mount stuff is not forgiving. Best is to start practicing soldering/desoldering with any whatever dead PCB, no need to buy online soldering kits that will end in a drawer.
+- I learnt soldering surface mount stuff by just watching the [Ben Heck hacks](https://www.youtube.com/watch?v=oGB7Yrbeo_Y) on Youtube (but you certainly have your favorite gen Z youtuber doing the same), so it's not rocket science either. I only had basic skill in soldering and it was enough to start cart modding without too much difficulty. Hardware is the key (good iron with temperature control, good solder alloy, good flux, accurate magnifying device) as soldering surface mount stuff is not forgiving. Best is to start practicing soldering/desoldering with any whatever dead PCB, no need to buy online soldering kits that will end in a drawer.
 - I guess that the PCB can be fully assembled at once with solder paste and a heating plate. I just have no experience doing this and you probably would have to prepare a stencil for that.
 
 ## Showcase with the long board attached to a GBxCart for flashing
@@ -131,8 +131,8 @@ I've ordered a set of long boards to fit them initially in regular camera shells
 
 - I've received the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip is the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Divinding the capacitance by two made glitches worse. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side on a wide range of camera temperature use).
-- I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
-- I've used an old new stock Panasonic MA784 Schottky diode because I own a bunch of them that I bought for science years ago.
+- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious with electronics).
+- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to cross check that the Game Boy Camera uses exactly this reference.
 
 ## Showcase with the Camera+ Mini shell
 
