@@ -117,7 +117,7 @@ The PCB was designed on purpose with "big" surface mount components. Sadistic sm
 - First connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
 - I learnt soldering surface mount stuff by just watching Youtube, so it's not rocket science either. I only had basic skill in soldering initially and it was enough to start cart modding without too much difficulty. Hardware is the key: choose good soldering iron with temperature control, good solder alloy, good flux, accurate magnifying device. Best is to start practicing soldering/desoldering with any whatever dead PCB, no need to buy online soldering kits that will end in a drawer.
-- I guess that the PCB can be fully assembled at once with solder paste and a heating plate. I just have no experience doing this and you probably would have to prepare a stencil for that.
+- I guess that the PCB can be fully assembled at once with solder paste and a heating plate/reflow station. I just have no experience doing this and you probably would have to prepare a stencil for that.
 
 ## Showcase with the long board attached to a GBxCart for flashing
 
