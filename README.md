@@ -98,6 +98,7 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 
 ## Notes (please read completely before attempting the project)
 
+- The schematic is open source and can be edited with Kicad, which is very cool if you want to make your own PCB design.
 - C10, C11 and C18 capacity has been increased compared to the original design to remove any graphical glitch due to FRAM timing inconsistencies. I had the exact same issue by doing the original design with Cypress Semiconductors and RAMTRON chips, so it's not chip related (more probably capacitor tolerance related). It is now perfectly OK with the cap values proposed in this fork.
 - The AM29F080B, as most of 5 volts flash chips, is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some late versions of the FM28V100 FRAM by Cypress Semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
