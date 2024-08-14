@@ -130,9 +130,9 @@ I've ordered a set of long boards to fit them initially in regular camera shells
 ![](Images/While_troubleshooting.png)
 
 - I've received the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip is the same.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Divinding the capacitance by two made glitches worse. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side on a wide range of camera temperature use).
-- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious with electronics).
-- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to cross check that the Game Boy Camera uses exactly this reference.
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Divinding the capacitance by two made glitches worse. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf (which is validated as perfectly working on my side on a wide range of temperature).
+- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics).
+- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
 
 ## Showcase with the Camera+ Mini shell
 
@@ -147,6 +147,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 **Some notes about the Camera+ Mini shell:**
 - I've ordered [this version of the Camera+ Mini shell](/Shell) at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this.
 - The C/CS mount I bought was way to large to enter the front hole so I had to file its external diameter until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
+- CS lens (CCTV) are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm]() which covers 99% of my needs.
 - The mod does reuse only screws from the genuine camera shell, which is great !
 
 ## Funfacts
