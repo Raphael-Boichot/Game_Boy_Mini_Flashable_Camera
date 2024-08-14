@@ -1,4 +1,4 @@
-# The Game Boy Mini Flashable Camera - a comprensive fork
+# The Game Boy Mini Flashable Camera - a comprehensive fork
 
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made to render the project doable without extensive help. All necessary informations are there.**
 
