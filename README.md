@@ -25,7 +25,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components;
 - 3 hours of free time with your prefered music in background and no kids whining around;
-- An overall skill in soldering SMD components because this is **not a beginner project.** Damaging the MAC-GBD beyond repair is easy.
+- An overall skill in soldering SMD components because this is **not a beginner project.** Dealing with the MAC-GBD is quite intimidating.
 
 **Now ready to go ?**
 
@@ -39,7 +39,7 @@ Both versions come with pads for both vertical and horizontal SMD JST connectors
 
 ![](/Images/Connector.png)
 
-**I overall recommend to order the long board which is more versatile**. The neck is easy to break and file to make a short board from it.
+**I overall recommend to order in priority the long board which is more versatile**. The neck is easy to break and file to make a short board from it.
 
 In case you want to mount the short PCB in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you will need a longer ribbon cable. 
 Aliexpress cables are too thick and crappy for that task and you must order a genuine JST cable. The only available seller for good replacement and longer cable is Digikey. Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are stiffer than the genuine cables but they can sustain the same amount of bending/torsion without connection issue.
@@ -71,7 +71,7 @@ It's not an interactive BOM sorry, I'm too cheap for that. If you are colorblind
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not sadistic small caps like the 0402 size. The only intimidating component is the tiny signal inverter in SC-88A package.
+The PCB was designed on purpose with "big" components only (0603 is the smallest footprint) and not sadistic small caps like the 0402 package.
 
 ## Overview of JLCPCB ordering options
 
@@ -102,8 +102,8 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 - The AM29F080B, as most of 5 volts flash chips, is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some late versions of the FM28V100 FRAM by Cypress Semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter can be difficult to source in 2024 (sold out at Digikey for example) so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is hard to find on Aliexpress but available on Mouser. The package SC−74A can be used too in case of no other choice, it barely fits. Chip marking must be **V6** in case of doubt when receiving the order.
-- Low voltage Schottky diode is generic and any equivalent one will do the job (there are many). The original camera used a Panasonic MA784 with marking **2D** (discontinued), among other undocumented variations, you can take inspiration from its datasheet. The RB510VM-30 is a possible replacement for example. It must have the lowest possible forward voltage drop. Its role is to protect the MAC-GBD internal analog to digital converter from any overvoltage, so the anode is connected to VOUT (1V5 in the schematic) and the cathode to 3.0V. It triggers at around 3.18V on the anode. Whatever the diode used, it must have a specific mark on the cathode (see corresponding datasheet, can be a white line on black background or the inverse).
-- Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one.
+- The low voltage Schottky diode proposed here is generic and any equivalent one will do the job (there are many). The original camera used a Panasonic MA784 with marking **2D** (discontinued), among other undocumented variations, you can take inspiration from its datasheet. The RB510VM-30 is a possible alternative for example. It must have the lowest possible forward voltage drop. Its role is to protect the MAC-GBD internal analog to digital converter from any overvoltage, so the anode is connected to VOUT (1V5 in the schematic) and the cathode to 3.0V. It triggers at around 3.18V on the anode. Whatever the diode used, it must have a specific mark on the cathode (see corresponding datasheet, can be a white line on black background or the inverse).
+- Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one. I recommend ordering on Mouser if you are in Europe. I had a very bad customer experience with Digikey (I would try, bad idea).
 - You can easily desolder the MAC-GBD by using a hot air gun (set at about 350°C) on the back side of the original board until the chip falls by itself or after a gentle shaking. This is by far the most secure way I've found (I do not own a heating plate). I do not recommend using low temp solder or other bismuth containing crap. No need. The author of the original project recommends using a heating plate set at 250°C. In any case, work fast to minimize at most heat budget on the chip.
 - Lead free solder in wire can be crap depending on the alloy and could be a pain to melt due to high melting point, in particular without flux core. Either use old good lead/tin alloy with flux core (and a ton of flux anyway) if you can find some or quality lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
 - The ferrite beads filters have been removed from the definitive PCB even if they are still mentioned in the pdf description of the project.
@@ -111,7 +111,7 @@ The PCB was designed on purpose with "big" components only (0603 is the smallest
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot.
 - The PCB ENIG finish can be hard to "wet" with solder depending on the flux used. I used a BEEYUIHF #8403 "no clean" flux in syringe which was OK in my case (good flux wetting, easy to "no clean" with isopropanol, not greasy and no headache after long soldering sessions contrary to some other el cheapo Aliexpress fluxes in metal containers I used to spread before).
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it during soldering. They are basically impossible to remove after, so better avoid them.
-- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
+- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly under microscope the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it).
 - I've soldered the components in this order: chips, caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check for dry solder joints and obvious shorts.
 - First connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts and in the same order, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol, the caps risk nothing.
