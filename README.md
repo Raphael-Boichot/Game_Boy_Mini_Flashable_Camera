@@ -25,7 +25,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components;
 - 3 hours of free time with your prefered music in background and no kids whining around;
-- A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is **not reversible**.
+- A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be reversible.
 
 **Now ready to go ?**
 
