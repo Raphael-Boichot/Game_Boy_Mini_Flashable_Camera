@@ -12,9 +12,9 @@ The current release has been produced, assembled, tested and bullet proofed in s
 ## Why this fork ?
 The main project has been published in a rush during the summer 2023. The author sent me soon after some prototype boards for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive seriously into the project again (I also had many projects to deal with on my side). During these months, I progressively left all social media and consequently lost any contact with the author (some sad consequence but my mental health was the priority).
 
-But I still owed 2BitWizard a feedback. I had a debt.
+But I still owed 2BitWizard a feedback. I had a moral debt.
 
-To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to start the project from zero to see if I was able to make the project with only informations provided in the main repository. It required too many educated guesses and external help on my side, this why I've decided to make this fork to fill the gaps. The project deserves it.
+To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to start the mod from zero, dismissing my prototype boards, to see if I was able to make the project with only informations provided in the main repository. It required many educated guesses and external help on my side, this why I've decided to make this fork to fill the gaps. The project deserves it. I pay my debt.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
