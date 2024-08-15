@@ -10,9 +10,9 @@
 The current release has been produced, assembled, tested and bullet proofed in sweat and blood. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (GB Operator, Cyclones and other Chinese oddities) were not tested, try them by yourself.
 
 ## Why this fork ?
-The main project has been published in a rush during the summer 2023. The author sent me soon after some prototype boards for feedback at about the same time I started a very heavy working year. A year passed before I found time to dive seriously into the project again. During that same year, I left all social media for many good reasons and consequently lost any contact with the author.
+The main project has been published in a rush during the summer 2023. The author sent me soon after some prototype boards for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive seriously into the project again (I also had mines to deal with). During these months, I left all social media for many good reasons and consequently lost any contact with the author.
 
-To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to restart from zero to see if I was able to make the project only with informations provided in the main repository. I was not, this why I've decided to make this fork to fill the gaps. The project deserves it.
+To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to restart from zero to see if I was able to make the project only with informations provided in the main repository. It required too many educated guesses and external help, this why I've decided to make this fork to fill the gaps. The project deserves it.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
