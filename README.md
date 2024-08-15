@@ -9,7 +9,7 @@
 
 The current release has been produced, assembled, tested and bullet proofed in sweat and blood. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (GB Operator, Cyclones and other Chinese oddities) were not tested, try them by yourself.
 
-## Why this fork ?
+## Why this fork ? Isn't the main branch enough ?
 The main project has been published in a rush during the summer 2023. The author sent me soon after some prototype boards for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive seriously into the project again (I also had many projects to deal with on my side). During these months, I progressively left all social media and consequently lost any contact with the author (some sad consequence but my mental health was the priority).
 
 But I still owed 2BitWizard a feedback. I had a moral debt.
