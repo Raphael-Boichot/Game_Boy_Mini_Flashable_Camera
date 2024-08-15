@@ -14,7 +14,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts;
 - The project now contains all necessary informations to be made without bothering the author.
 
-## Minimal hardware/soft skill required in addition to all the BOM before starting anything
+## Minimal hardware/skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
 - A 60W soldering iron with a fine tip and a temperature setting;
 - A hot air gun (reflow station) or a heating plate to desolder the MAC-GBD;
@@ -25,7 +25,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components;
 - 3 hours of free time with your prefered music in background and no kids whining around;
-- An overall skill in soldering SMD components because this is **not a beginner project.** Dealing with the MAC-GBD is quite intimidating.
+- A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is **not reversible**.
 
 **Now ready to go ?**
 
@@ -149,6 +149,7 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The C/CS mount I bought was way to large to enter the front hole so I had to file its external diameter until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
 - CS lens are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10 (5 mm with Game Boy Camera sensor is equivalent to 50 mm with full frame sensor).
 - The mod does reuse only screws from the genuine camera shell, which is clever ! You just need some 5 minutes epoxy for gluing the C/CS mount and nothing else.
+- The mod is **fully reversible.**
 
 ## Funfacts
 - The MAC-GBD I used here was hosted on three different PCBs. The mapper was so desoldered two times and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
