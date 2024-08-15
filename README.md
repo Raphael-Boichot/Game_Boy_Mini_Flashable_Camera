@@ -14,7 +14,7 @@ The main project has been published in a rush during the summer 2023. The author
 
 But I still owed 2BitWizard a feedback. I had a debt.
 
-To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to start the mod from zero, putting my prototype boards aside, to see if I was able to make the project with only informations provided in the main repository. It required many educated guesses on my side. I needed external help (see the acknowledgements). This is why I've decided to make this fork to fill the gaps. The project deserves it. A way of paying my debt.
+To my big surprise, the main branch stayed nearly inactive after the initial commit. I've decided to start the mod from zero, putting my prototype boards aside, to see if I was able to make the project with only informations provided in the main repository. It required many educated guesses on my side. I needed external help (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project. A way of paying my debt.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
