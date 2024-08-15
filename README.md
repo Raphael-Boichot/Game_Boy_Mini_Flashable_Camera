@@ -9,6 +9,9 @@
 
 The current release has been produced, assembled, tested and bullet proofed in sweat and blood. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (GB Operator, Cyclones and other Chinese oddities) were not tested, try them by yourself.
 
+## Why this fork ?
+The main project has been published in a rush during the summer 2023. The author sent me soon after some prototype boards at about the same time I was involved in some heavy duty work. A year passed before I found time and motivation to dive again into the project. I've decided to restart from the main branch because I lost all informations about what to do with the prototype boards and I have no contact with the author anymore because I left all social media. To my big surprise, the main branch seems inactive now. This why I've decided to make this fork. The project deserves it.
+
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts;
@@ -158,5 +161,5 @@ Some pictures made with the device: the use of a lens mod improves drastically t
   
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me some informations only accessible from the deep web.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing in 2023, unfortunately at about the same time I left all social media and nearly a full year before I found time and motivation to dive again into the project and make it. Sadly I have no contact with him anymore and the main branch seems inactive now.   This why I've decided to open this fork.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods. Don't forget [donation](https://ko-fi.com/s/a4d7bd649a) if you appreciate this mod.
