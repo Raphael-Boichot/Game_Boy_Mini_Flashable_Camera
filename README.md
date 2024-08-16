@@ -11,7 +11,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 ## Why this fork ? Isn't the main branch enough ?
 
-In short: no. But let me develop further.
+In short: yes and no. Let me explain the story.
 
 The main branch has been published with a very short readme during the summer 2023. The author kindly sent me soon after some prototype boards (quite different from the current design) for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive again seriously into the project. Meanwhile, I lost any way to contact the author after leaving all social media.
 
