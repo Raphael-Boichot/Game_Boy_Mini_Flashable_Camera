@@ -19,7 +19,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts;
-- The project now contains all necessary informations to be made without bothering the author.
+- The project now contains all necessary informations to be made without seeking for help.
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 - A multimeter with a continuity mode for troubleshooting;
