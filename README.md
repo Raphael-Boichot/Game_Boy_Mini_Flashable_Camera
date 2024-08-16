@@ -13,7 +13,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 In short: yes... but not for me. Let me explain the story.
 
-The main branch has been published with a very short readme during the summer 2023. The author kindly sent me soon after some prototype boards (quite different from the current design) for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive again seriously into the project. Meanwhile, I lost any way to contact the author after leaving all social media.
+The main branch has been published with a very short readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback at about the same time I started a very heavy working year. 10 months passed before I found time to dive again seriously into the project. Meanwhile, I lost any way to contact the author after leaving all social media for different reasons.
 
 But I still owed 2BitWizard a feedback. I had a debt.
 
