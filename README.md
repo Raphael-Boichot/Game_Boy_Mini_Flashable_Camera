@@ -46,7 +46,7 @@ The GB mini flashable camera in short version fits perfectly with the [Camera+ M
 
 The "Longboard" version has a "neck" that allows mounting it in a regular Game Boy Camera shell with the regular sensor ribbon as well. If you change your idea, you can physically break the neck and adapt the PCB again in the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). **The long neck must be populated with a vertical SMD JST connector only.**
 
-Both versions come with pads for vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pads to avoid polarity inversion. **For the short PCB, whatever the shell used, I recommended to go with the horizontal SMD JST connector by default as clearance is very low.**
+Both versions come with pads for vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pads to avoid polarity inversion. **For the short PCB, whatever the shell used, I recommend to go with the horizontal SMD JST connector by default as clearance is very low.**
 
 ![](/Images/Connector.png)
 
