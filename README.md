@@ -27,7 +27,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 - A multimeter with at least a beeping continuity mode for troubleshooting;
-- A 60W soldering iron with a fine tip and a real temperature control. This [kind of soldering iron](https://a.aliexpress.com/_EIEo07n) is **not** an option to consider unless you want to kill yourself (my own experience);
+- A 60W soldering iron with a fine tip and a real temperature control. This [kind of soldering iron](https://a.aliexpress.com/_EIEo07n) is **NOT** an option to consider unless you want to kill yourself (my own experience);
 - A hot air gun (ideally a reflow station) or a heating plate to desolder the MAC-GBD;
 - Good quality solder wire/flux or solder paste and solder wick;
 - Isopropanol in large quantities to clean all the flux mess;
