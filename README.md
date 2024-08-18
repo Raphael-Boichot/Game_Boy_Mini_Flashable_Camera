@@ -13,11 +13,11 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 In short: yes... but not for me. Let me explain the story first.
 
-The main branch has been published by 2BitWizard with a minimal readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback, at about the same time. Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuse). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media for several reasons.
+The main branch has been published by 2BitWizard with a minimal readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback, at about the same time. Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuse). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
 
 But I still owed 2BitWizard a feedback. I had a debt (yes, I'm an old-fashioned kind of guy).
 
-To my big surprise, the main branch stayed nearly inactive after the initial commit. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting my pre-release boards that I was unable to use aside. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
+To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting my pre-release boards that I was unable to use aside. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
