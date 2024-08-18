@@ -15,18 +15,18 @@ In short: yes... but not for me. Let me explain the story first.
 
 The main branch has been published by 2BitWizard with a minimal readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback, at about the same time. Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project. Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media for several reasons.
 
-But I still owed 2BitWizard a feedback. I had a debt.
+But I still owed 2BitWizard a feedback. I had a debt (yes, I'm an old-fashioned kind of guy).
 
-To my big surprise, the main branch stayed nearly inactive after the initial commit. Out of curiosity, I've decided to restart the mod from zero, alone, putting my pre-release boards aside. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I finally seeked for external help (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
+To my big surprise, the main branch stayed nearly inactive after the initial commit. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting my pre-release boards that I was unable to use aside. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
 
 ## What have been changed compared to the main branch ?
 - Inconsistencies between BOM and schematic have been fixed;
-- All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts;
+- All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
-- As all my projects more or less end as a draw-my-life, this one will not make exception.
+- As all my projects more or less end as a draw-my-life, this one will not make exception. So it verbose now.
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
-- A multimeter with a continuity mode for troubleshooting;
+- A multimeter with at least a beeping continuity mode for troubleshooting;
 - A 60W soldering iron with a fine tip and a real temperature control. This [kind of soldering iron](https://a.aliexpress.com/_EIEo07n) is **not** an option to consider unless you want to kill yourself (my own experience);
 - A hot air gun (ideally a reflow station) or a heating plate to desolder the MAC-GBD;
 - Good quality solder wire/flux or solder paste and solder wick;
