@@ -149,7 +149,7 @@ I've ordered a set of long boards to fit them initially in regular camera shells
 
 ![game boy camera flashable](Images/Mini_camera_shell.png)
 
-Short version (made after breaking the neck of a long version, soldering an horizontal JST connector and going with the definitive capacitor set given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend.
+Short version (made after breaking the neck of a long version, soldering an horizontal JST connector and going with the definitive capacitor set given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend. It feels solid and does not wobble with heavy lenses.
 
 ![](Images/Image_example.png)
 
