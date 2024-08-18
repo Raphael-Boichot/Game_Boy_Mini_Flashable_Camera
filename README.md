@@ -23,7 +23,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
-- As all my projects more or less end as a draw-my-life, this one will not make exception. So it verbose now.
+- As all my projects more or less end as a draw-my-life, this one will not make exception.
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 - A multimeter with at least a beeping continuity mode for troubleshooting;
