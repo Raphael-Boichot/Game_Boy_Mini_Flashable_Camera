@@ -40,7 +40,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 **Now ready to go ?**
 
-## What to fit it with
+## What to fit it with (a question of ribbon cable)
 
 The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon.
 
