@@ -42,7 +42,8 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 ## How to be sure to completely screw up the project
 
-Take a pen form factor soldering iron with not enough power, some pure tin solder wire without flux core (and even not flux at all), dismiss the solder wick (there is sometimes a bit of flux into), solder bare eye, oh and most of all, don't read the readme: you got it. Additionaly you can solder the MAC-GBD with ripped pads below the pins, it's very efficient also.
+(100% based on real-life events) 
+Take a pen form factor soldering iron with not enough power, some pure tin solder wire without flux core (and even not flux at all, it's so overrated), dismiss the solder wick (there is sometimes a bit of flux into that can help you not to fuck the project), solder bare eye, oh and most of all, very important, don't read the readme: you got it. Additionaly you can solder the MAC-GBD with ripped pads below the pins, it's very efficient also.
 
 So, ready to start ?
 
