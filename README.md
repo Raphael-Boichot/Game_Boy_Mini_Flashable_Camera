@@ -20,12 +20,14 @@ But I still owed 2BitWizard a feedback. I had a debt. Because yes, I'm an old-fa
 To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting my pre-release boards that I was unable to use aside. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
 
 ## What have been changed compared to the main branch ?
+
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
 - As all my projects more or less end as a draw-my-life, this one will not make exception.
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
+
 - A multimeter with at least a beeping continuity mode for troubleshooting;
 - A 60W soldering iron with a fine tip and a real temperature control. This [kind of soldering iron](https://a.aliexpress.com/_EIEo07n) is **NOT** an option to consider unless you want to kill yourself (my own experience);
 - A hot air gun (ideally a reflow station) or a heating plate to desolder the MAC-GBD;
@@ -38,9 +40,11 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 - 3 hours of free time with your prefered music in background and no kids whining around;
 - A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be reversible.
 
-## How to completely screw up the project
+## How to be sure to completely screw up the project
 
-Take a pen form factor soldering iron with not enough power, some pure tin solder wire without flux core (and even not flux at all), dismiss the solder wick (there is sometimes a bit of flux into), solder bare eye: you got it. 
+Take a pen form factor soldering iron with not enough power, some pure tin solder wire without flux core (and even not flux at all), dismiss the solder wick (there is sometimes a bit of flux into), solder bare eye, oh and most of all, don't read the readme: you got it. Additionaly you can solder the MAC-GBD with ripped pads below the pins, it's very efficient also.
+
+So, ready to start ?
 
 ## What to fit it with (a question of ribbon cable)
 
