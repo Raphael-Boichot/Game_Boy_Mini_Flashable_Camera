@@ -46,11 +46,11 @@ The GB mini flashable camera in short version fits perfectly with the [Camera+ M
 
 The "Longboard" version has a "neck" that allows mounting it in a regular Game Boy Camera shell with the regular sensor ribbon as well. If you change your idea, you can physically break the neck and adapt the PCB again in the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). **The long neck must be populated with a vertical SMD JST connector only.**
 
-Both versions come with pads for both vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pad to avoid polarity inversion. **For short PCB, whatever the shell used, it is recommended to go with the horizontal SMD JST connector.**
+Both versions come with pads for vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pads to avoid polarity inversion. **For the short PCB, whatever the shell used, I recommended to go with the horizontal SMD JST connector by default as clearance is very low.**
 
 ![](/Images/Connector.png)
 
-**So, between all these options, I strongly recommend to order only the long board which is more versatile and will fit in any shell with the original ribbon cable**. The neck is easy to break and file to make a short board from it.
+**So, between all these options, I strongly recommend to order only the long board which is more versatile and will fit in any shell with the original ribbon cable**.
 
 In case you want to mount the **short PCB** in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you will need a longer ribbon cable, and that's where the pain begins. 
 **Aliexpress JST cables are much too thick and stiff for that task** and you must order a genuine JST cable from the US. The only available seller for genuine replacement and longer cable is Digikey. Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are just stiffer than the genuine cables but they can sustain the same amount of bending/torsion without loosing connection.
