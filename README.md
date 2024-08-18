@@ -38,7 +38,9 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 - 3 hours of free time with your prefered music in background and no kids whining around;
 - A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be reversible.
 
-**Now ready to go ?**
+## How to completely screw up the project
+
+Take a pen form factor soldering iron with not enough power, some pure tin solder wire without flux core (and even not flux at all), dismiss the solder wick (there is sometimes a bit of flux into), solder bare eye: you got it. 
 
 ## What to fit it with (a question of ribbon cable)
 
