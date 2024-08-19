@@ -149,16 +149,16 @@ I've ordered a set of long boards to fit them initially in regular camera shells
 
 ![](Images/While_troubleshooting.png)
 
-- I've received the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip/pinout is the same.
+- I've received the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was quite a pain to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip/pinout is the same. Lack of connection between FRAM and the signal inverter will result in a permanent white image.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two (and changing the FRAM brand, I thought it was the culprit but in fact not). Divinding the capacitance by two made glitches worse. Doubling to 44 pf with two 22 pf in parallel completely fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf. These values are validated as perfectly working on my side (on a 4-40°C temperature range at least).
-- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics).
-- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago (for one kidney...) to confirm that the Game Boy Camera uses exactly the same.
+- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
+- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
 
 ## Showcase with the Camera+ Mini shell
 
 ![game boy camera flashable](Images/Mini_camera_shell.png)
 
-Short version (made after breaking the neck of a long version, soldering an horizontal JST connector and going with the definitive capacitor set given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend. It feels solid and does not wobble with heavy lenses.
+Short version (made after breaking the neck of a long version, soldering an horizontal JST connector and going with the definitive capacitor set given in the BOM) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend. It feels **solid** and does not wobble with heavy lenses.
 
 ![](Images/Image_example.png)
 
