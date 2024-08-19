@@ -22,7 +22,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 ## What have been changed compared to the main branch ?
 
 - Inconsistencies between BOM and schematic have been fixed;
-- All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM;
+- All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM. 22 pf was a very minimal value with no safety margin;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
 - As all my projects more or less end as a draw-my-life, this one will not make exception.
 
