@@ -38,7 +38,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 - Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
 - Fine twizzers to handle the tiny components (and experience the joy of capacitor tombstoning);
 - 3 hours of free time with your prefered music in background and no kids whining around;
-- A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be reversible.
+- A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be easily reversible.
 
 ## How to be sure to completely screw up the project
 
