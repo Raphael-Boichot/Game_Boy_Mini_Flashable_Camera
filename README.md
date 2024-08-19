@@ -44,7 +44,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 (100% based on real-life events after years helping people with camera mods and some shamefull fails on my own)
 
-This is your first soldering project since the high school (even better: you have no skill in soldering at all). Take an underpowered soldering iron, some pure tin solder wire without flux core (and use no flux at all, it's so overrated), dismiss the solder wick (there is sometimes a bit of flux into that can help you not to fuck the project completely) and solder bare eye with unprotected gold-plated PCB fingers: you got it ! Additionaly you can solder the MAC-GBD with ripped pads from the original board still stuck below the pins, it's very efficient.
+This is your first soldering project since the high school (even better: you have no skill in soldering at all). Take the puniest possible soldering iron, some pure tin solder wire without flux core (and use no flux at all, it's so overrated), dismiss the solder wick (there is sometimes a bit of flux coating that can save the project, so avoid it) and solder bare eye with unprotected gold-plated PCB fingers: you got the recipe ! Oh, and you can solder the MAC-GBD with ripped pads from the original board still stuck below the pins, it's very efficient to have shorts.
 
 So, ready to start ?
 
