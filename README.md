@@ -101,6 +101,8 @@ The PCB was designed on purpose with "big" surface mount components only. Anythi
 - 1MB flash memory (package TSOP-40) [AM29F080B](https://fr.aliexpress.com/item/1005006991297704.html)
 - 128kB FRAM memory (package TSOP-32) [FM28V100-TG](https://fr.aliexpress.com/item/1005006265366983.html)
 
+You can report dead links in issue, I will update them.
+
 ## Schematic
 
 ![game boy camera flashable](/Images/Schematic.png)
