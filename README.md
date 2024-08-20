@@ -142,7 +142,7 @@ The PCB was designed on purpose with "big" surface mount components only. Anythi
 - I learnt soldering surface mount stuff years ago by just watching Youtube and praticing, so it's not rocket science either. Hardware is the key: choose powerfull enough soldering iron with temperature control (typically an iron with power transformer and head in two different pieces, not single cord pen form factor with a knob, they are all crap), good solder alloy, good soldering wick, flux in syringe, accurate magnifying device. Best is of course to start practicing soldering/desoldering with simplier projects first.
 - I guess that the PCB can be fully assembled at once with solder paste and a heating plate/reflow station. I just have no experience doing this and you probably would have to prepare a stencil for that.
 
-## Showcase with the long board attached to a GBxCart for flashing
+## Showcase with the long board in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
 
@@ -157,7 +157,7 @@ I've ordered a set of long boards to fit them initially in regular camera shells
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
 - I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
 
-## Showcase with the Camera+ Mini shell
+## Showcase with the short board in a Camera+ Mini shell
 
 ![game boy camera flashable](Images/Mini_camera_shell.png)
 
@@ -175,11 +175,13 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The mod is **fully reversible.**
 
 ## Funfacts
+
 - The MAC-GBD I used here was hosted on three different PCBs. The mapper was so desoldered two times with a heat gun and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
 - Interestingly enough, 2BitWizard started this mod from scratch by reverse engineering the Game Boy Camera PCB and ended as a quite clever design, close to the original PCB but much simplier, using only new parts (apart from the MAC-GBD of course). You can read the whole making of [here](/Building_guides/Micro_Camera_II.pdf), which is super interesting to understand the choice of components.
 - The project was literally plagued on my side due to order issues in series and unexpectedly long shipping delays. Overall, more than two months passed from the end of my procrastination period on this project to its completion. But it really deserved the effort. I hope you will have fun doing this mod now.
   
 ## Acknowledgements
+
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me some informations only accessible from the deep web.
 - [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition and sending me prototype boards. If you read this one day, feel free to contact me.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods. Don't forget [donation](https://ko-fi.com/s/a4d7bd649a) if you appreciate this mod.
