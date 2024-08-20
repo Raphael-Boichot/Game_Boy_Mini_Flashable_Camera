@@ -92,8 +92,8 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 
 ## Aliexpress cart
-- capacitors (footprint 0603) [39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and capacitor (footprint 1206) [22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
-- resistor (footprint 0603) [1kOhm](https://fr.aliexpress.com/item/1005005677654015.html)
+- Capacitors (footprint 0603) [39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and (footprint 1206) [22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
+- Resistor (footprint 0603) [1kOhm](https://fr.aliexpress.com/item/1005005677654015.html)
 - 1MB flash memory (package TSOP40) [AM29F080B](https://fr.aliexpress.com/item/1005006991297704.html)
 - 128kB FRAM memory (package TSOP32) [FM28V100-TG](https://fr.aliexpress.com/item/1005006265366983.html)
 - 9 pins JST (horizontal/vertical) [connectors](https://fr.aliexpress.com/item/1005006028155508.html)
