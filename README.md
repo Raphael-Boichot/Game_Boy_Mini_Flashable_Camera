@@ -80,7 +80,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10 nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C10, C11, C18	|39 pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
-|D1	|N/A	|1	|SOD-123	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
+|D1	|N/A	|1	|SOD-123 (or SC79)	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male, horizontal or vertical)|
 |R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|
 |U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart	|Main gamecart mapper chip|
