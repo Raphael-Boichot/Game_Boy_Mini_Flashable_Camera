@@ -91,6 +91,10 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 
 The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 
+## Schematic
+
+![game boy camera flashable](/Images/Schematic.png)
+
 ## Overview of JLCPCB ordering options
 
 - Base Material **FR-4**
