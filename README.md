@@ -50,7 +50,7 @@ So, ready to start ?
 
 ## What to fit it with (a question of ribbon cable)
 
-The GB mini flashable camera comes in two versions to fit any kind of cool existing shells.
+The GB mini flashable camera comes in two versions to fit any kind of cool existing shells. It is meant to be as versatile as possible.
 
 ![game boy camera flashable](/Images/PCB_type.png)
 
