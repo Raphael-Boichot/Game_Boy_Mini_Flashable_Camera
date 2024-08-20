@@ -50,19 +50,15 @@ So, ready to start ?
 
 ## What to fit it with (a question of ribbon cable)
 
-The GB mini flashable camera comes in two versions to fit any kind of cool existing shells. It is meant to be as versatile as possible.
+The GB mini flashable camera comes in two versions that fit any kind of cool existing shells. It is meant to be as versatile as possible. **The long board can be turned into a short board by simply breaking the PCB neck so I recommend ordering only this one as it lets you more shell options.**
 
 ![game boy camera flashable](/Images/PCB_type.png)
 
-The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon.
+The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon. **With the short PCB, use an horizontal JST connector as clearance is very low.**
 
-The "Longboard" version has a "neck" that allows mounting it in a regular Game Boy Camera shell with the regular sensor ribbon as well. If you change your idea, you can physically break the neck and adapt the PCB again in the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). **The long neck must be populated with a vertical SMD JST connector only.**
+The "Longboard" version has a "neck" that allows mounting it in a regular Game Boy Camera or a [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) shell with the regular sensor ribbon as well. **The long neck must be populated with a vertical JST connector only.**
 
-Both versions come with pads for vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pads to avoid polarity inversion. **For the short PCB, whatever the shell used, I recommend to go with the horizontal SMD JST connector by default as clearance is very low.**
-
-**So, between all these options, I strongly recommend to order only the long board which is more versatile and will fit in any shell with the original ribbon cable**.
-
-In case you want to mount the **short PCB** in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
+In case you want to mount the **short PCB** in a regular camera shell (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
 **Aliexpress JST cables are much too thick and stiff for that task** (plus they are just crap) and you must order a genuine JST cable. The only known supplier for genuine cables is Digikey (with prohibitive shipping fees to Europe). Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are just stiffer than the genuine cables but they can sustain the same amount of bending/torsion without loosing connection.
 
 Please follow the [building instructions from the original author](/Building_guides/build.pdf) (also given in next section) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€ in 2024.
@@ -84,7 +80,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |C10, C11, C18	|39 pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
 |D1	|N/A	|1	|SOT-23	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
-|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male)|
+|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male, horizontal or vertical)|
 |R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|
 |U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart	|Main gamecart mapper chip|
 |U2	|N/A	|1	|SC-88A-5 	|M74VHC1GU04DFT1G-L22038	|Signal inverter|
