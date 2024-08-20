@@ -91,7 +91,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 
 The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 
-## Aliexpress cart (alternatives sellers not included)
+## Aliexpress cart (alternative sellers not included)
 - Capacitors (footprint 0603) [39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and (footprint 1206) [22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
 - Resistor (footprint 0603) [1kOhm](https://fr.aliexpress.com/item/1005005677654015.html)
 - Schottky diode (package SOD-123 or SC79) [BAT54W](https://fr.aliexpress.com/item/1005005967484049.html) or [BAT63-02V](https://fr.aliexpress.com/item/1005005554665957.html)
