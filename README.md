@@ -60,8 +60,6 @@ The "Longboard" version has a "neck" that allows mounting it in a regular Game B
 
 Both versions come with pads for vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pads to avoid polarity inversion. **For the short PCB, whatever the shell used, I recommend to go with the horizontal SMD JST connector by default as clearance is very low.**
 
-![](/Images/Connector.png)
-
 **So, between all these options, I strongly recommend to order only the long board which is more versatile and will fit in any shell with the original ribbon cable**.
 
 In case you want to mount the **short PCB** in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
