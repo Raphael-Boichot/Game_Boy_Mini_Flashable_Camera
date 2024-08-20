@@ -13,11 +13,13 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 In short: yes... but not for me. Let me explain the story first.
 
-The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback, at about the same time. Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuse). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
+The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly sent me some pre-release boards (quite different from the current design) for feedback, at about the same time. Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
 
 But I still owed 2BitWizard a feedback. I had a debt. Because yes, I'm an old-fashioned guy with principles.
 
-To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting aside my pre-release boards that I was unable to populate anymore. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. This is why I've decided to make this fork to fill the gaps and fix the project.
+To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting aside my pre-release boards that I was unable to populate anymore. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. The author never replied to my pull requests.
+
+This is why I've decided to make my own fork. The project deserves to be made.
 
 ## What have been changed compared to the main branch ?
 
@@ -35,7 +37,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software. Other flashers may or may not work;
-- Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers;
+- Some kapton tape (or any whatever branded polyimide tape) to cover the PCB gold fingers during soldering;
 - Fine twizzers to handle the tiny components (and experience the joy of capacitor tombstoning);
 - 3 hours of free time with your prefered music in background and no kids whining around;
 - A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be easily reversible.
@@ -48,7 +50,7 @@ This is your first soldering project since the high school (even better: you hav
 
 So, ready to start ?
 
-## What to fit it with (a question of ribbon cable)
+## What to fit it with
 
 The GB mini flashable camera comes in two versions that fit any kind of cool existing shells. It is meant to be as versatile as possible. **The long board can be turned into a short board by simply breaking the PCB neck so I recommend ordering only this one as it lets you more shell options.**
 
