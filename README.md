@@ -80,7 +80,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10 nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C10, C11, C18	|39 pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
-|D1	|N/A	|1	|SOT-23	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
+|D1	|N/A	|1	|SOD-123	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male, horizontal or vertical)|
 |R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|
 |U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart	|Main gamecart mapper chip|
@@ -92,11 +92,13 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 
 ## Aliexpress cart
-- capacitors [0603 of 39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and capacitor [1206 of 22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
-- 1MB flash memory [AM29F080B](https://fr.aliexpress.com/item/1005006991297704.html)
-- 128kB FRAM memory [FM28V100-TG](https://fr.aliexpress.com/item/1005006265366983.html)
-- 9 pins JST [connectors](https://fr.aliexpress.com/item/1005006028155508.html)
-- 
+- capacitors (footprint 0603) [39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and capacitor (footprint 1206) [22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
+- resistor (footprint 0603) [1kOhm](https://fr.aliexpress.com/item/1005005677654015.html)
+- 1MB flash memory (package TSOP40) [AM29F080B](https://fr.aliexpress.com/item/1005006991297704.html)
+- 128kB FRAM memory (package TSOP32) [FM28V100-TG](https://fr.aliexpress.com/item/1005006265366983.html)
+- 9 pins JST (horizontal/vertical) [connectors](https://fr.aliexpress.com/item/1005006028155508.html)
+- Schottky diode (package SOD-123 or SC79) [BAT54W](https://fr.aliexpress.com/item/1005005967484049.html) or [BAT63-02V](https://fr.aliexpress.com/item/1005005554665957.html)
+- Voltage regulator (package SOT-23-5) [NCP718ASN300T1G](https://fr.aliexpress.com/item/1005007543804480.html)
 
 ## Schematic
 
