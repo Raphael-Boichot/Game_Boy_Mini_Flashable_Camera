@@ -89,7 +89,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
-The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would just make no sense on such a "big" PCB.
+The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 
 ## Overview of JLCPCB ordering options
 
