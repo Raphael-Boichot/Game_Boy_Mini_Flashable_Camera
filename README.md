@@ -95,7 +95,7 @@ The PCB was designed on purpose with "big" surface mount components only. Anythi
 - Capacitors (footprint 0603) [39 pf, 10 nf and 100 nf](https://fr.aliexpress.com/item/1005005690927737.html) and (footprint 1206) [22 µf, 16V X7R](https://fr.aliexpress.com/item/1005006022131059.html)
 - Resistor (footprint 0603) [1kOhm](https://fr.aliexpress.com/item/1005005677654015.html)
 - Schottky diode (package SOD-123 or SC79) [BAT54W](https://fr.aliexpress.com/item/1005005967484049.html) or [BAT63-02V](https://fr.aliexpress.com/item/1005005554665957.html)
-- 9 pins JST (horizontal/vertical) [connectors](https://fr.aliexpress.com/item/1005006028155508.html)
+- Horizontal/vertical [9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)
 - Voltage regulator (package SOT-23-5) [NCP718ASN300T1G](https://fr.aliexpress.com/item/1005007543804480.html)
 - Signal inverter (package SC-88A or SOT353) [M74VHC1GU04DFT1G](https://fr.aliexpress.com/item/1005006648399693.html)
 - 1MB flash memory (package TSOP-40) [AM29F080B](https://fr.aliexpress.com/item/1005006991297704.html)
