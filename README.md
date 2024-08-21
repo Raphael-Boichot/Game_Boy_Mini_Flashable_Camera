@@ -51,7 +51,7 @@ OK, let's stop sarcasms, back to the subject.
 
 ## What to fit it with
 
-The GB mini flashable camera comes in two PCB versions that fit any kind of cool existing shells. It is meant to be as versatile as possible. **The long PCB can be turned into a short board by simply breaking the PCB neck so I recommend ordering only this one as it lets you more shell options.**
+The GB mini flashable camera comes in two PCB versions that fit any kind of cool existing shells. It is meant to be as versatile as possible. **The long PCB can be turned into a short PCB by simply breaking the PCB neck so I recommend ordering only this one as it lets you more shell options.**
 
 ![game boy camera flashable](/Images/PCB_type.png)
 
