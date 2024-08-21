@@ -24,8 +24,8 @@ This is why I've decided to make my own fork. The project deserves to be made.
 ## What have been changed compared to the main branch ?
 
 - Inconsistencies between BOM and schematic have been fixed;
-- All 22 pf caps have been replaced with 39 pf to definitely remove image artifacts linked to FRAM. 22 pf was a very minimal value with no safety margin;
-- The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
+- All 22 pf caps have been replaced with 39 pf to definitely fix image artifacts linked to FRAM. 22 pf was a very minimal value with no safety margin;
+- The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things);
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 
