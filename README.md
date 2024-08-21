@@ -30,7 +30,7 @@ This is why I've decided to make my own fork. The project deserves to be made.
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 
 - A multimeter with at least a beeping continuity mode for troubleshooting;
-- A 60W soldering iron with a fine tip and a real temperature control. This [kind of "power" controlled soldering iron](https://a.aliexpress.com/_EIEo07n) is **NOT** an option to consider unless you want to kill yourself (my own experience, when the knob falls, which is inevitable, it's 110/220V straight in your fingers);
+- A 60W soldering iron with a fine tip and a real temperature control. This [kind of puny soldering iron](https://a.aliexpress.com/_EIEo07n) is **NOT** an option to consider unless you want to kill yourself;
 - A hot air gun (ideally a reflow station) or a heating plate to desolder the MAC-GBD;
 - Good quality solder wire/flux or solder paste and solder wick;
 - Isopropanol in large quantities to clean all the flux mess;
@@ -40,14 +40,6 @@ This is why I've decided to make my own fork. The project deserves to be made.
 - Fine twizzers to handle the tiny components (and experience the joy of capacitor tombstoning);
 - 3 hours of free time with your prefered music in background and no kids whining around;
 - A good skill in soldering because **this is not a beginner project**. It can really end as a mess if you don't know what you are doing. Keep in mind that the mod is not intended to be easily reversible.
-
-## How to be sure to completely screw up the project
-
-_100% based on real-life events after years helping people with camera mods and some shamefull fails on my own_
-
-This is your first soldering project since the high school (even better: you have no skill in soldering at all). Take the puniest possible soldering iron, some pure tin solder wire without flux core (and use no flux at all, it's so overrated), dismiss the solder wick (there is sometimes a bit of flux coating that can save the project, so avoid it) and solder bare eyes with unprotected gold-plated PCB fingers: you got the recipe ! Oh, and you can solder the MAC-GBD with ripped pads from the original board still stuck below the pins, it's very efficient to have unfixable shorts.
-
-OK, let's stop sarcasms, back to the subject.
 
 ## What to fit it with
 
