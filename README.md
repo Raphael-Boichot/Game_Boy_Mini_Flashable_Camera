@@ -74,7 +74,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor| [22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
 |D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 |Schottky diode|[BAT54W - SOD-123](https://fr.aliexpress.com/item/1005005967484049.html)|
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)|
-|R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|[1kOhm - 0.603](https://fr.aliexpress.com/item/1005005677654015.html)|
+|R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|[1kOhm - 0603](https://fr.aliexpress.com/item/1005005677654015.html)|
 |U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart	|Main gamecart mapper chip|Harvest from cart|
 |U2	|N/A	|1	|SC-88A-5 	|M74VHC1GU04DFT1G-L22038	|Signal inverter|[M74VHC1GU04DFT1G - SC88A/SOT-353](https://fr.aliexpress.com/item/1005006648399693.html)|
 |U3	|N/A	|1	|TSOP-I-32 (12.4x8mm)	|FM28V100-TG 	|FRAM|[FM28V100-TG - TSOP-32](https://fr.aliexpress.com/item/1005006265366983.html)|
