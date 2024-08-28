@@ -68,10 +68,10 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 
 |Reference	|Value	|Count	|Footprint	|Name	|Description| Aliexpress link|
 |---------|---------|----|-------------|-------------|------------------|------------|
-|C1	|100 nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|Decoupling Capacitor|[39 pf, 10 nf and 100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)]
-|C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10 nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|[39 pf, 10 nf and 100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)]
-|C10, C11, C18	|39 pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|[39 pf, 10 nf and 100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)]
-|C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|[22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
+|C1	|100 nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|Decoupling Capacitor|[100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)
+|C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10 nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|[10 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)
+|C10, C11, C18	|39 pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|[39 pf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)
+|C17	|22 µF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor| [22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
 |D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 |Schottky diode|[BAT54W - SOD-123](https://fr.aliexpress.com/item/1005005967484049.html)
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)|
 |R1	|1 kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|[1kOhm - 0.603](https://fr.aliexpress.com/item/1005005677654015.html)]
@@ -90,26 +90,7 @@ You can report dead Aliexpress links in the **issues**, I will update them ASAP.
 
 ## Overview of JLCPCB ordering options
 
-- Base Material **FR-4**
-- Layers **2**
-- Dimensions **Auto-filled**
-- PCB Qty **As desired**
-- Product type **Industrial/Consumer electronics**
-- Different Design **1**
-- Delivery format **Single PCB**
-- PCB thickness **0.8**
-- PCB Color **As desired**
-- Silkscreen **As desired**
-- Surface Finish **ENIG**
-- Outer Copper weight **1 oz**
-- Via Covering **Tented**
-- Board Outline Tolerance **±0.2mm(Regular)**
-- Confirm Production file **No**
-- Remove Order Number **Specify a location**
-- Flying Probe Test **Fully Test**
-- Gold Fingers **Yes**
-- 30°finger chamfered **No**
-- Castellated Holes **No**
+Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As desired**, Product type **Industrial/Consumer electronics**, Different Design **1**, Delivery format **Single PCB**,  PCB thickness **0.8**, PCB Color **As desired**, Silkscreen **As desired**, Surface Finish **ENIG**, Outer Copper weight **1 oz**, Via Covering **Tented**, Board Outline Tolerance **±0.2mm(Regular)**, Confirm Production file **No**, Remove Order Number **Specify a location**, Flying Probe Test **Fully Test**, Gold Fingers **Yes**, 30°finger chamfered **No**, Castellated Holes **No**.
 
 ## Notes (please read completely before attempting the project)
 
