@@ -66,7 +66,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 
 ## Component list (BOM)
 
-|Reference	|Value	|#	|Footprint	|Exact reference| Aliexpress link|
+|Reference	|Values	|#	|Footprint	|Exact reference| Aliexpress link|
 |---------|---------|---------|---------|---------|---------|
 |C1	|100 nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|[100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10 nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|[10 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
