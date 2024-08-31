@@ -11,5 +11,6 @@ I have only amateur skill in electronics and these comments are just based on sc
 ## Alternative components placement for the 2BitWizard project (validated)
 - RAM_CE1 shorted to ground without the signal inverter.
 - Only 100 nf capacitors instead of 10 nf capacitors on voltage lines.
+- All of this is perfectly working.
 
 ![](/Images/Component_placement_alternative.png)
