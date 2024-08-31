@@ -76,7 +76,7 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)|
 |R1	|1kΩ	|1	|0603 |Resistor	|[1kOhm - 0603](https://fr.aliexpress.com/item/1005005677654015.html)|
 |U1	|N/A	|1	|TQFP-100 |MAC-GBD gamecart mapper chip|Harvest from cart|
-|U2	|N/A	|1	|SC-88A-5 |M74VHC1GU04DFT1G Signal inverter|[M74VHC1GU04DFT1G - BEWARE, it's the SC−74A package, see notes](https://fr.aliexpress.com/item/1005006648399693.html)|
+|U2	|N/A	|1	|SC-88A-5 |M74VHC1GU04DFT1G Signal inverter|[M74VHC1GU04DFT1G](https://fr.aliexpress.com/item/1005006648399693.html) - see notes|
 |U3	|N/A	|1	|TSOP-I-32 |FM28V100-TG FRAM|[FM28V100-TG - TSOP-32](https://fr.aliexpress.com/item/1005006265366983.html)|
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://fr.aliexpress.com/item/1005007543804480.html)|
 |U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005006991297704.html)|
