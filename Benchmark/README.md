@@ -7,3 +7,7 @@
 - HDR design uses a 2MB flash chip with a physical switch to select one of two banks on ROM_A20, allowing two roms to coexist on the same board, while 2BitWizard design uses a smaller 1MB flash chip. I never had any use of the second bank when using HDR design due to the need to open the shell but I can understand the appeal for some users or with some shell mods.
 
 I have only amateur skill in electronics and these comments are just based on schematics. They do not constitute an opinion on who made the best design (and I don't give a shit of that anymore to be honest). I have tested both (I made several of them over years), **they work perfectly, and exactly as the original Game Boy Camera**, according to my demanding user experience. The only difference for the user is the license associated to each project. Both were designed with passion (maybe a little bit too much) and the same motivation to fill a gap in the modding community.
+
+## Alternative componennts placement for the 2BitWizard project
+
+![](/Images/Component_placement_alternative.png)
