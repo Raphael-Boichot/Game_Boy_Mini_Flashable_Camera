@@ -62,7 +62,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![game boy camera flashable](Images/Component_placement_w_components.png)
 
-It's not an interactive BOM but it will do the job. If you are colorblind, please refer to the next table which is the same. **No component other than the MAC-GBD need to be harvested from the original camera PCB.**
+It's not an interactive BOM but it will do the job. If you are colorblind, please refer to the next table which is the same. **No component other than the MAC-GBD need to be harvested from the original camera PCB.** You also take a look to my proposal of [alternative design using less components](/Benchmark).
 
 ## Component list (BOM)
 
