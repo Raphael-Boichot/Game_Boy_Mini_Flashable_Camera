@@ -19,7 +19,7 @@ I have only amateur skill in electronics and these comments are just based on sc
 
 |Silkscreen |Value |# |Footprint |Exact reference |Aliexpress link |
 |---------|---------|---------|---------|---------|---------|
-|C1 to C9, C12 to C16, C19	|100nF	|15	|0603 |	Capacitor Ceramic (X7R)|[10 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
+|C1 to C9, C12 to C16, C19	|100nF	|15	|0603 |	Capacitor Ceramic (X7R)|[100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
 |C10, C11, C18	|39pF	|3	|0603 |Capacitor Ceramic (X7R)|[39 pf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
 |C17	|22µF	|1	|1206 |Capacitor Tantalum (≤10%)	|[22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
 |D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 Schottky diode|[BAT54W - SOD-123](https://fr.aliexpress.com/item/1005005967484049.html)|
