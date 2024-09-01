@@ -9,7 +9,7 @@
 I have only amateur skill in electronics and these comments are just based on schematics. Remind that we are just talking about a toy produced in millions of units. My comments do not constitute an opinion on who made the best design (and I don't give a shit of that anymore to be honest). I have tested both (I made several of them over years), **they work perfectly, and exactly as the original Game Boy Camera**, according to my demanding user experience. The only difference for the user is the license associated to each project. Both were designed with passion (maybe a little bit too much) and the same motivation to fill a gap in the modding community.
 
 ## Alternative design proposal for the 2BitWizard project (validated on my side)
-- RAM_CE1 shorted to ground without the signal inverter (you can use a 1k resistor to make the bridge as it is exactly the good lenght). You can get rid of C12 in this case.
+- RAM_CE1 shorted to ground without the signal inverter (you can use a 1k resistor to make the bridge as it is exactly the good lenght, just be carefull to not short RST and GND in the process). You can get rid of C12 in this case.
 - Only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduce the number of references to buy.
 - All of this is perfectly working in any case (hard reset, soft reset, custom and regular roms).
 
