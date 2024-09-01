@@ -1,4 +1,4 @@
-## Some technical comments/project comparison
+## Some technical comments / project comparison
 
 - HDR projects uses a 3.3V regulator and 2BitWizard a 3.0V regulator (like the original GB camera). Both fits within the FRAM specification and the difference seems to have no effect on the MAC-GBD voltage scale for ADC (image looks absolutely the same with the two designs). This implies that the voltage reference for the MAC-GBD flash ADC is probably pulled from the 5V line.
 - HDR project uses no voltage inverter and RAM_CE1 is directly connected to ground. 2BitWizard uses a voltage inverter connecting RAM_CE1 to RST line which mimicks the Camera strategy by inactivating writing to RAM during reset. Shorting RAM_CE1 to GND on the 2bitwizard project works perfectly in case of voltage inverter shortage.
@@ -8,9 +8,9 @@
 
 I have only amateur skill in electronics and these comments are just based on schematics. They do not constitute an opinion on who made the best design (and I don't give a shit of that anymore to be honest). I have tested both (I made several of them over years), **they work perfectly, and exactly as the original Game Boy Camera**, according to my demanding user experience. The only difference for the user is the license associated to each project. Both were designed with passion (maybe a little bit too much) and the same motivation to fill a gap in the modding community.
 
-## Alternative components placement for the 2BitWizard project (validated)
-- RAM_CE1 shorted to ground without the signal inverter (you can use a 1k resistor to make the bridge as it is exactly the good lenght).
+## Alternative design proposal for the 2BitWizard project (validated)
+- RAM_CE1 shorted to ground without the signal inverter (you can use a 1k resistor to make the bridge as it is exactly the good lenght). You can get rid of C12 in this case.
 - Only 100 nf capacitors instead of 10 nf capacitors on voltage lines.
-- All of this is perfectly working.
+- All of this is perfectly working in any case (hard reset, soft reset, custom and regular roms).
 
 ![](/Images/Component_placement_alternative.png)
