@@ -11,7 +11,7 @@ I have only amateur skill in electronics and these comments are just based on sc
 ## Alternative design proposal for the 2BitWizard project (validated on my side)
 - RAM_CE1 shorted to ground without the signal inverter (you can use a 1k resistor to make the bridge as it is exactly the good lenght, just be carefull to not short RST and GND in the process). You can get rid of C12 in this case.
 - Only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduce the number of references to buy.
-- All of this is perfectly working in any case (hard reset, soft reset, custom and regular roms).
+- All of this is perfectly working in any case (hard reset, soft reset, custom and regular roms, on DMG, GBC, GB Boy Colour and GBA).
 
 ![](/Images/Component_placement_alternative.png)
 
