@@ -123,7 +123,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ## Showcase with the long board in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
-Not that the flash chip was produced in 1997 and the MAB-GBD in 1998.
+Note that the flash chip was produced in 1997 and the MAB-GBD in 1998 which defeats a bit the concept of "all new parts". But who cares.
 
 ## Showcase with the short board in a Camera+ Mini shell
 
