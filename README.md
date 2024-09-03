@@ -24,7 +24,7 @@ This is why I've decided to make my own fork. The project deserves to be made.
 ## What have been changed compared to the main branch ?
 
 - Inconsistencies between BOM and schematic have been fixed;
-- All 22 pf caps have been replaced with 39 pf to definitely fix image artifacts linked to FRAM;
+- All 22 pf caps have been replaced with 39 pf to definitely fix [image artifacts](/Images/Artifacts_with_22pf_C10.png) linked to FRAM;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things);
 - An alternative design using the same PCB and less components is proposed.
 
