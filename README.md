@@ -123,16 +123,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ## Showcase with the long board in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
-Yes I know, it's gorgeous.
-
-## While troubleshooting / trying new options
-
-![](Images/While_troubleshooting.png)
-
-- I've received the signal inverter in the wrong package from some Aliexpess seller (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was tricky to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip/pinout is the same. Lack of connection between FRAM and the signal inverter will result in a permanent white image, easy to recognize. I've tried to get rid of it by "shorting" RAM_CE1 to GND with a 1kOhms resistor (it has just the required lenght and makes a solid bridge), it works.
-- Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). Typical image glitches due to weak caps with FRAM are missing brightness levels, more or less obvious (an [example can be seen here](/Images/Artifacts_with_22pf_C10.png)). As I knew that this very particular cap was crucial for FRAM stability (because I'm not a six-week-old rabbit either), I've tried doubling or dividing the value by two (and changing the FRAM chip from RAMTRON to Cypress Semiconductors, I thought the brand was maybe the culprit but in fact not). Dividing the capacitance by two made glitches worse (image turned to 1 BPP). Doubling to 44 pf with two 22 pf in parallel completely fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf. These values are validated as perfectly working on my side (on a 4-40°C temperature range at least). I think that 22 pf was a [very minimal value](/Images/22pf_cap_story.png) with no safety/tolerance margin.
-- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
-- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
+Yes I know, it's gorgeous in atomic purple.
 
 ## Showcase with the short board in a Camera+ Mini shell
 
@@ -151,11 +142,14 @@ Some pictures made with the device: the use of a lens mod improves drastically t
 - The mod does reuse only screws from the genuine camera shell, which is clever ! You just need some 5 minutes epoxy for gluing the C/CS mount and nothing else.
 - The mod is **fully reversible.**
 
-## Funfacts
+## While troubleshooting / trying new options
 
-- The MAC-GBD I used here was hosted on three different PCBs. The mapper was so desoldered two times with a heat gun and soldered three times (one time in factory, two times by me on two different custom PCBs). My conclusion is that the MAC-GBD seems rather forgiving in term of thermal budget.
-- Interestingly enough, 2BitWizard started this mod from scratch by reverse engineering the Game Boy Camera PCB without taking insiration from other mods. You can read the whole making of [here](/Building_guides/Micro_Camera_II.pdf), which is super interesting to understand the choice of components.
-- The project was literally plagued on my side due to order issues in series and unexpectedly long shipping delays. Overall, more than two months passed from the end of my procrastination period on this project to its completion. But it really deserved the effort. I hope you will have fun doing this mod now.
+![](Images/While_troubleshooting.png)
+
+- I've received the signal inverter in the wrong package from some Aliexpess seller (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was tricky to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip/pinout is the same. Lack of connection between FRAM and the signal inverter will result in a permanent white image, easy to recognize. I've tried to get rid of it by "shorting" RAM_CE1 to GND with a 1kOhms resistor (it has just the required lenght and makes a solid bridge), it works.
+- Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). Typical image glitches due to weak caps with FRAM are missing brightness levels, more or less obvious (an [example can be seen here](/Images/Artifacts_with_22pf_C10.png)). As I knew that this very particular cap was crucial for FRAM stability (because I'm not a six-week-old rabbit either), I've tried doubling or dividing the value by two (and changing the FRAM chip from RAMTRON to Cypress Semiconductors, I thought the brand was maybe the culprit but in fact not). Dividing the capacitance by two made glitches worse (image turned to 1 BPP). Doubling to 44 pf with two 22 pf in parallel completely fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf. These values are validated as perfectly working on my side (on a 4-40°C temperature range at least). I think that 22 pf was a [very minimal value](/Images/22pf_cap_story.png) with no safety/tolerance margin.
+- I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
+- I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
   
 ## Acknowledgements
 
