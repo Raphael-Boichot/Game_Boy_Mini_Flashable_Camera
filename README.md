@@ -123,6 +123,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ## Showcase with the long board in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
+Yes I know, it's gorgeous.
 
 ## The stories within the story
 
