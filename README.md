@@ -123,7 +123,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ## Showcase with the long board in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
-Yes I know, it's gorgeous in atomic purple.
+Not that the flash chip was procuded in 1997 and the MAB-GBD in 1998.
 
 ## Showcase with the short board in a Camera+ Mini shell
 
