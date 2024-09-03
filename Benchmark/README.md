@@ -34,4 +34,4 @@ I honestly don't give a shit of who made the best design. I have tested both (I 
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://fr.aliexpress.com/item/1005007543804480.html)|
 |U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005006991297704.html)|
 
-Enjoy this simplified new design !
+Enjoy this simplified (and perfectly working) new design !
