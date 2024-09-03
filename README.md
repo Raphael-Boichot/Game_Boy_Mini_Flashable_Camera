@@ -125,7 +125,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ![game boy camera flashable](Images/Long_board.png)
 Yes I know, it's gorgeous.
 
-## The stories within the story
+## While troubleshooting / trying new options
 
 ![](Images/While_troubleshooting.png)
 
