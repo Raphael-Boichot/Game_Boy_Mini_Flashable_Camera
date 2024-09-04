@@ -52,6 +52,10 @@ The GB mini flashable camera in short version fits perfectly with the [Camera+ M
 
 The long PCB version has a "neck" that allows mounting it in a regular Game Boy Camera or a [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) with the regular sensor ribbon as well. **The long neck must be populated with a vertical JST connector only.**
 
+## Showcase with the long board in a regular camera shell
+
+![game boy camera flashable](Images/Long_board.png)
+
 In case you want to mount the **short PCB** in a regular camera shell (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
 **Aliexpress JST cables are much too thick and stiff for that task** (plus they are just crap) and you must order a genuine JST cable. The only known supplier for genuine cables is Digikey (with prohibitive shipping fees to Europe). Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are just stiffer than the genuine cables but they can sustain the same amount of bending/torsion without loosing connection.
 
@@ -119,11 +123,6 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol and use a toothbrush, the caps risk nothing.
 - I learnt soldering surface mount stuff years ago by just watching Youtube and praticing, so it's not rocket science either. Hardware is the key: choose powerfull enough soldering iron with temperature control (typically an iron with power transformer and head in two different pieces, not single cord pen form factor with a knob, they are all crap), good solder alloy, good soldering wick, flux in syringe, accurate magnifying device. Best is of course to start practicing soldering/desoldering with simplier projects first.
 - I guess that the PCB can be fully assembled at once with solder paste and a heating plate/reflow station. I just have no experience doing this and you probably would have to prepare a stencil for that.
-
-## Showcase with the long board in a regular camera shell
-
-![game boy camera flashable](Images/Long_board.png)
-Note that the flash chip was produced in 1997 and the MAB-GBD in 1998 which defeats a bit the concept of "all new parts". But who cares.
 
 ## Showcase with the short board in a Camera+ Mini shell
 
