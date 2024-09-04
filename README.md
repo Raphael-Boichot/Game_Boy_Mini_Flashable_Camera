@@ -50,13 +50,13 @@ The GB mini flashable camera comes in two PCB versions that fit any kind of cool
 
 The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon. **With the short PCB, use an horizontal JST connector as clearance is very low.**
 
-## Showcase with the short board in a Camera+ Mini shell
+## Showcase with the short PCB in a Camera+ Mini shell
 
 ![game boy camera flashable](Images/Mini_camera_shell.png)
 
 The long PCB version has a "neck" that allows mounting it in a regular Game Boy Camera or a [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) with the regular sensor ribbon as well. **The long neck must be populated with a vertical JST connector only.**
 
-## Showcase with the long board in a regular camera shell
+## Showcase with the long PCB in a regular camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
 
