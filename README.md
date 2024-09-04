@@ -25,8 +25,9 @@ This is why I've decided to make my own fork. The project deserves to be made.
 
 - Inconsistencies between BOM and schematic have been fixed;
 - All 22 pf caps have been replaced with 39 pf to definitely fix [image artifacts](/Images/Artifacts_with_22pf_C10.png) linked to FRAM;
-- The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things);
-- An alternative design using the same PCB and less components is proposed.
+- An alternative design using 100 nf caps instead of 10 nf caps and without the signal inverter, with the same PCB, is proposed;
+- The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic (for chip orientation, among other things).
+
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 
