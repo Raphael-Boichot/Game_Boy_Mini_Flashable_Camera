@@ -50,6 +50,10 @@ The GB mini flashable camera comes in two PCB versions that fit any kind of cool
 
 The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon. **With the short PCB, use an horizontal JST connector as clearance is very low.**
 
+## Showcase with the short board in a Camera+ Mini shell
+
+![game boy camera flashable](Images/Mini_camera_shell.png)
+
 The long PCB version has a "neck" that allows mounting it in a regular Game Boy Camera or a [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) with the regular sensor ribbon as well. **The long neck must be populated with a vertical JST connector only.**
 
 ## Showcase with the long board in a regular camera shell
@@ -124,17 +128,12 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - I learnt soldering surface mount stuff years ago by just watching Youtube and praticing, so it's not rocket science either. Hardware is the key: choose powerfull enough soldering iron with temperature control (typically an iron with power transformer and head in two different pieces, not single cord pen form factor with a knob, they are all crap), good solder alloy, good soldering wick, flux in syringe, accurate magnifying device. Best is of course to start practicing soldering/desoldering with simplier projects first.
 - I guess that the PCB can be fully assembled at once with solder paste and a heating plate/reflow station. I just have no experience doing this and you probably would have to prepare a stencil for that.
 
-## Showcase with the short board in a Camera+ Mini shell
-
-![game boy camera flashable](Images/Mini_camera_shell.png)
-
-Short version (made after breaking the neck of a long version and soldering an horizontal JST connector, installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's a beautiful and handy mod to use, I highly recommend. It feels **solid** and does not wobble with heavy lenses.
+## Example of pictures taken with the device
 
 ![](Images/Image_example.png)
 
-Some pictures made with the device: the use of a lens mod improves drastically the quality of image taken.
+## Notes for ordering the Camera+ Mini shell
 
-**Some notes about the Camera+ Mini shell:**
 - I've ordered [this version of the Camera+ Mini shell](/Shell) at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this. The price in 2024, shipped to France, was 17€ for the full set of pieces.
 - The C/CS mount I bought was way to large to enter the front hole so I had to file its external diameter until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
 - CS lenses are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10 (5 mm with Game Boy Camera sensor is equivalent to 50 mm with full frame sensor). The original camera plastic lens is about 35 mm equivalent (3.5 mm with the sensor) to give a reference.
