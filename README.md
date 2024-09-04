@@ -128,7 +128,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - I learnt soldering surface mount stuff years ago by just watching Youtube and praticing, so it's not rocket science either. Hardware is the key: choose powerfull enough soldering iron with temperature control (typically an iron with power transformer and head in two different pieces, not single cord pen form factor with a knob, they are all crap), good solder alloy, good soldering wick, flux in syringe, accurate magnifying device. Best is of course to start practicing soldering/desoldering with simplier projects first.
 - I guess that the PCB can be fully assembled at once with solder paste and a heating plate/reflow station. I just have no experience doing this and you probably would have to prepare a stencil for that.
 
-## Example of pictures taken with the device
+## Example of pictures taken with the Camera+ Mini shell and a 2.8-12 mm CS lens
 
 ![](Images/Image_example.png)
 
