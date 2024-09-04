@@ -141,14 +141,14 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - The mod does reuse only screws from the genuine camera shell, which is clever ! You just need some 5 minutes epoxy for gluing the C/CS mount and nothing else.
 - The mod is **fully reversible.**
 
-## While troubleshooting / trying new options
-
-![](Images/While_troubleshooting.png)
+## Notes while troubleshooting / trying new options
 
 - I've received the signal inverter in the wrong package from two different Aliexpess sellers (package SC−74A, it was referenced as SC-88A but it was not). It barely fits and was tricky to solder correctly on the traces but it works. As long as the chip marking begins by V6, chip/pinout is the same. Lack of connection between FRAM and the signal inverter will result in a permanent white image, easy to recognize. I've tried to get rid of it by "shorting" RAM_CE1 to GND with a 1kOhms resistor (it has just the required lenght and makes a solid bridge, right pads on U2 foorprint), it of course also works.
 - I've used an old new stock Panasonic MA784 Schottky diode because I bought a bunch of them years ago to confirm that the Game Boy Camera uses exactly the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to image glitches on my side (I must precise that I did not specifically order X7R caps but was working at "room temperature" with unbranded caps). Typical image glitches due to weak caps with FRAM are missing brightness levels, more or less obvious (an [example can be seen here](/Images/Artifacts_with_22pf_C10.png)). As I knew that this very particular cap was crucial for FRAM stability (because I'm not a six-week-old rabbit either), I've tried doubling or dividing the value by two (and changing the FRAM chip from RAMTRON to Cypress Semiconductors, I thought the brand was maybe the culprit but in fact not). Dividing the capacitance by two made glitches worse (image turned to 1 BPP). Doubling to 44 pf with two 22 pf in parallel completely fixes the graphical glitches. So I then tried a 39 pf cap to be closer from initial value and it was OK. As C11 and C18 are less critical than C10 and to avoid ordering too many different cap references, they were also increased to 39 pf. These values are validated as perfectly working on my side (on a 4-40°C temperature range at least). I think that 22 pf was a [very minimal value](/Images/22pf_cap_story.png) with no safety/tolerance margin.
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
+
+![](Images/While_troubleshooting.png)
   
 ## Acknowledgements
 
