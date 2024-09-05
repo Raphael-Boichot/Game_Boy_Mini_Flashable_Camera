@@ -21,6 +21,10 @@ So, let's take the best of each design to propose a new one !
 
 ![](/Images/Component_placement_alternative.png)
 
+## Possible placements for a 1kOhms resistor to ground RAM_CE1 pin
+
+![](/Images/Resistor_placement.png)
+
 ## Alternative BOM
 
 |Silkscreen |Value |# |Footprint |Exact reference |Aliexpress link |
