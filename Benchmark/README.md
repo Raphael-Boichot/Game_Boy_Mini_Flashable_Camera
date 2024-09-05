@@ -1,4 +1,4 @@
-## Some technical comments / project comparison
+## Benchmark between camera projects
 
 - HDR projects uses a 3.3V regulator and 2BitWizard a 3.0V regulator (like the original GB camera). Both fits within the FRAM specification and the difference seems to have no effect on the MAC-GBD voltage scale for ADC (image looks absolutely the same with the two designs). This implies that the voltage reference for the MAC-GBD flash ADC is probably pulled from the 5V line.
 - HDR project uses no voltage inverter and RAM_CE1 is directly connected to ground. 2BitWizard uses a voltage inverter connecting RAM_CE1 to RESET line. Shorting RAM_CE1 to GND on the 2bitwizard project works perfectly.
