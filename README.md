@@ -13,7 +13,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 In short: yes... but no. Let me explain the story first, it's interesting.
 
-The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly sent to me (and to some other folks too) some pre-release boards (quite different from the current design) for feedback, at about the same time (we were quite active contributers on some relevant Discord). Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
+The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly sent to me (and to some other folks too) some pre-release boards (quite different from the current design) for feedback, at about the same time (we were both quite active contributers on some retro stuff related Discord). Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
 
 But I still owed 2BitWizard a feedback. I had a debt. Because yes, I'm an old-fashioned guy with principles.
 
