@@ -13,7 +13,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 In short: yes... but no. Let me explain the story first, it's interesting.
 
-The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly sent to me (and to some other folks too) some pre-release boards (quite different from the current design) for feedback, at about the same time (we were both quite active contributers on some retro stuff related Discord). Unfortunately, 10 months passed before I found time/motivation to dive back seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards after leaving all social media (apart Github, if you consider this a social media).
+The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly shipped to me some pre-release boards for feedback (as well as to a bunch of other modders). 2BitWizard and I were both quite active members on some retro stuff related Discord. Unfortunately, 10 months passed before I found time/motivation to dive seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards (which were different enough from the current project to be lost in translation) after leaving progressively all social media for various good reasons.
 
 But I still owed 2BitWizard a feedback. I had a debt. Because yes, I'm an old-fashioned guy with principles.
 
@@ -21,7 +21,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 So.
 
-This is why I've decided to make my own fork. The project deserves to be highlighted as alternatives project of flashable cameras are just a no go for me (too expensives, too restrictives, made by people just avid for money or thinking they are geniuses, etc.).
+I've decided to make my own fork. The project deserves to be highlighted as alternative flashable camera mods were just a no go for me anymore (too expensives, too restrictives, made by people just avid for money/fame, etc.).
 
 ## What have been changed compared to the main branch ?
 
