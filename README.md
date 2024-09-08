@@ -17,9 +17,11 @@ The main branch has been published by 2BitWizard with a minimalistic readme duri
 
 But I still owed 2BitWizard a feedback. I had a debt. Because yes, I'm an old-fashioned guy with principles.
 
-To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting aside my pre-release boards that I was unable to populate anymore. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. The author did not reply to pull requests or issues.
+To my big surprise, the main branch stayed nearly inactive after the initial commits. Out of curiosity, I've decided to restart the mod from zero, alone with my workbench, putting aside my pre-release boards that I was unable to populate anymore. I wanted to confirm that it was possible to make the project with the only informations, gerbers and schematics provided in the main repository. It required some educated guesses. I found inconsistencies. I finally seeked for external help and confirmation (see the acknowledgements). I had to modify important things. The author did not reply to pull requests or issues. There is no other way to contact him from Github.
 
-This is why I've decided to make my own fork. The project deserves to be made.
+So.
+
+This is why I've decided to make my own fork. The project deserves to be highlighted as alternatives project of flashable cameras are just a no go for me (too expensives, too restrictives, made by people just avid for money or thinking they are geniuses, etc.).
 
 ## What have been changed compared to the main branch ?
 
