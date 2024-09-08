@@ -8,7 +8,7 @@
 
 I have tested both mods for months/years in harsch conditions, **they work perfectly, and exactly as the original Game Boy Camera**, according to my demanding user experience. The main difference for the user is the license associated to each project: no license for 2BitWizard, CC BY-NC-SA 4.0 for HDR. Unfortunately, despite his undeniable skill, this latter is sick enough to actively [keep files on people](https://github.com/HDR/Licence-Violation-Hall-Of-Shame), insult rival creators when his incomes are at stake and acts in clique with the most possible bad faith. I can only recommend running away from this author who spoils the entire retro community since many years.
 
-So, let's take the best of each design to propose a new simplier one !
+This said, let's take the best of each design to propose a new simplier one !
 
 ## Alternative design proposal for the 2BitWizard project
 
