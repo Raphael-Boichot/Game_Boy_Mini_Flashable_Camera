@@ -21,7 +21,7 @@ To my big surprise, the main branch stayed nearly inactive after the initial com
 
 So.
 
-I've decided to make my own fork. The project deserves to be highlighted as alternative flashable camera mods are just no-go for me anymore (too expensives, too restrictives, made by questionable people, etc.).
+I've decided to make my own fork. The project deserves to be highlighted as alternative flashable camera mods are just no-go for me anymore (too expensives, too restrictives, made by questionable people I do not want to sponsor, etc.).
 
 ## What have been changed compared to the main branch ?
 
