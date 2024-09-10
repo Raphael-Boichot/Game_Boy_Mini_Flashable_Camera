@@ -11,10 +11,7 @@ RAM_CE1 can be connected to ground directly, without the signal inverter. You ca
 
 Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduce the number of references to buy. 100 nf or more is the default cap value for many cart mods on voltage lines, so do not hesitate as 10 pf caps are of no use for other related mods. 
 
-**These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter).
-
-## Alternative component location and orientation on PCB
-
+**Alternative capacitor placement on PCB**
 ![](/Alternative_design/Component_placement_alternative.png)
 
 ## Alternative BOM
@@ -32,4 +29,4 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://fr.aliexpress.com/item/1005007543804480.html)|
 |U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005006991297704.html)|
 
-Enjoy this simplified (and perfectly working) new design !
+**These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter). Enjoy !
