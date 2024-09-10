@@ -9,9 +9,10 @@
 		(date "2024-07-26")
 		(rev "B")
 		(company "Made by 2BitWizard")
-		(comment 1 "C10, C11 and C18 changed from 22 pf to 39 pf")
+		(comment 1 "Modified by Raphaël BOICHOT")
 		(comment 2 "All 10 nf caps changed to 100 nf caps")
 		(comment 3 "Signal inverter removed and RAM_CE1 to GND")
+		(comment 4 "C10, C11 and C18 changed from 22 pf to 39 pf")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x09_Male"
