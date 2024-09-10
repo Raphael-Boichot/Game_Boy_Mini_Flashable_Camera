@@ -4,6 +4,9 @@
 
 RAM_CE1 can be connected to ground directly, without the signal inverter. You can use a 1kOhms resistor to make the bridge as it is exactly the good lenght, just be carefull to not short RST and GND in the process. You can get rid of C12 in this case (see [an example here](/Images/While_troubleshooting.png)). My understanding is that the RESET signal is intended to be pulled down by the [battery backup management system](https://github.com/MouseBiteLabs/Game-Boy-MBC3-Cartridge/tree/main/Technical) (not used here because FRAM), to halt **both CPU operation AND writing to SRAM** when voltage is unstable while the Game Boy is powered down. But as it is pulled high on the Game Boy CPU side by default, the signal inverter pulls it down and always allows writing to the FRAM when Game Boy is ON. What a wire to ground does perfectly too. I can find at least as many arguments pro or against grounding RAM_CE1 or using the inverter.
 
+**Possible placements for a 1kOhms resistor to ground RAM_CE1 pin**
+![](/Alternative_design/Resistor_placement.png)
+
 ## 2. Use only 100 nf caps on the voltage lines
 
 Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduce the number of references to buy. 100 nf or more is the default cap value for many cart mods on voltage lines, so do not hesitate as 10 pf caps are of no use for other related mods. 
@@ -13,10 +16,6 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 ## Alternative component location and orientation on PCB
 
 ![](/Alternative_design/Component_placement_alternative.png)
-
-## Possible placements for a 1kOhms resistor to ground RAM_CE1 pin
-
-![](/Alternative_design/Resistor_placement.png)
 
 ## Alternative BOM
 
