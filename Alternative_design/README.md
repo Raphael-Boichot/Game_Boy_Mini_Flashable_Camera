@@ -33,4 +33,4 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 
 ## Why not doing a new PCB ?
 
-Well, the current one is super well designed and the alternative design super easy to apply on the current PCB, so I have no reason to waste time to redo it from scratch as I do not own the source files. It's not like if the alternative design was a mess of wires to solder on tiny pads.
+Well, the current one is super well designed and the alternative design super easy to apply on the current PCB, so I have no reason to waste time (free time is the rarest thing I can dispose of now) to redo it from scratch as I do not own the source files. It's not like if the alternative design was a mess of wires to solder on tiny pads.
