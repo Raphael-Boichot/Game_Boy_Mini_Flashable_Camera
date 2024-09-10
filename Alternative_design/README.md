@@ -30,3 +30,7 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 |U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005006991297704.html)|
 
 **These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter). Enjoy !
+
+## Why not doing a new PCB ?
+
+Well, the current one is super well designed and the alternative design super easy to apply on the current PCB, so I have no reason to waste time to redo it from scratch as I do not own the source files. It's not like if the alternative design was a mess of wires to solder on tiny pads.
