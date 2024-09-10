@@ -8,7 +8,7 @@ RAM_CE1 can be connected to ground directly, without the signal inverter. You ca
 
 Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduce the number of references to buy. 100 nf or more is the default cap value for many cart mods on voltage lines, so do not hesitate as 10 pf caps are of no use for other related mods. 
 
-**This design was bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two recommendations or use them separately, it works too (i.e. 100 nf caps with inverter).
+**These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter).
 
 ## Alternative component location and orientation on PCB
 
