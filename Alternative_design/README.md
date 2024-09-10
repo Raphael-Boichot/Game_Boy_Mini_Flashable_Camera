@@ -14,6 +14,9 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 **Alternative capacitor placement on PCB**
 ![](/Alternative_design/Component_placement_alternative.png)
 
+**Alternative schematic**
+![](/Alternative_design/Alternative_schematic.png)
+
 ## Alternative BOM
 
 |Silkscreen |Value |# |Footprint |Exact reference |Aliexpress link |
