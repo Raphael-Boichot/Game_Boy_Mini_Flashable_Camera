@@ -61,7 +61,7 @@ The long PCB version has a "neck" that allows mounting it in a regular Game Boy 
 ## Showcase with the long PCB in a regular (but fancy) camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
-Atomic purple case with purple PCB, what could go wrong ? (note the missing signal inverter, but read the whole story to understand why).
+Atomic purple case with purple PCB, what could go wrong ? (note the missing signal inverter on pupose, [this is why](/Alternative_design)).
 
 In case you want to mount the **short PCB** in a regular camera shell (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
 **Aliexpress JST cables are much too thick and stiff for that task** (plus they are just crap, do not buy them) and you must order a genuine JST cable. The only known supplier for genuine cables is Digikey (with prohibitive shipping fees to Europe). Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are just a bit stiffer than the genuine cables but they can sustain the same amount of bending/torsion without loosing connection, in brief they are damn good quality. Funfact: the JST male connectors from Aliexpress, in the other hand, are just perfectly OK.
