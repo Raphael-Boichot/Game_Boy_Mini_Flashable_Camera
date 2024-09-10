@@ -28,7 +28,7 @@ I've decided to make my own fork. The project deserves to be highlighted as alte
 - Inconsistencies between BOM and schematic have been fixed, BOM is simplified;
 - All 22 pf caps have been replaced with 39 pf to definitely fix [image artifacts](/Images/Artifacts_with_22pf_C10.png) linked to FRAM;
 - The project now contains all necessary informations to be completed without having to cross-check datasheets and schematic and make educated guesses;
-- An [alternative design](/Images/Component_placement_alternative.png) using 100 nf caps instead of 10 nf caps and without the signal inverter, with the same PCB, is also proposed.
+- An [alternative design](/Alternative_design) with less components and using the same PCB is also proposed.
 
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 
@@ -74,7 +74,7 @@ Please follow the [building instructions from the original author](/Building_gui
 
 ![game boy camera flashable](Images/Component_placement_w_components.png)
 
-It's not an interactive BOM but it will do the job. If you are colorblind, please refer to the next table which is the same. **No component other than the MAC-GBD need to be harvested from the original camera PCB.** You can also take a look to my proposal of [alternative design using less components](/Benchmark).
+It's not an interactive BOM but it will do the job. If you are colorblind, please refer to the next table which is the same. **No component other than the MAC-GBD need to be harvested from the original camera PCB.** You can also take a look to my proposal of [alternative design using less components](/Alternative_design).
 
 ## Component list (BOM)
 
