@@ -1,6 +1,6 @@
-## !!! THIS FORK WILL BE SOON DEPRECATED !!!
+## !!! THIS FORK IS DEPRECATED !!!
 
-The original author is preparing a new project release fixing the issues / feedbacks addressed here. Use only if you have yet ordered the PCB in 1.4 version. Wait until main branch update in other case.
+17 September 2024: the original author is issuing a new release fixing the issues / feedbacks addressed here. Use only if you have yet ordered the PCB in 1.4 version. This fork is kept for history.
 
 # The Game Boy Mini Flashable Camera - a fork
 
