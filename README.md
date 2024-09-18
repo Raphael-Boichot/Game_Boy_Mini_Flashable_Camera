@@ -1,7 +1,3 @@
-## !!! THIS FORK IS NOW DEPRECATED !!!
-
-17 September 2024: the original author is issuing a new release fixing the issues / feedbacks addressed here. Use only if you have yet ordered the PCB in 1.4 version. This fork is kept for history. I won't make any commit on it.
-
 # The Game Boy Mini Flashable Camera - a fork
 
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made to render the project doable without external help. All necessary informations are here. I also propose an alternative simplier design requiring less components.**
