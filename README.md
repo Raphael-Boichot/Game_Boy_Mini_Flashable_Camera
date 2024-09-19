@@ -4,6 +4,8 @@
 
 **The license (rather the absence of it) allows you to do what you want with your mod: selling it, offering service for doing the mod, modifying it starting from the schematic, it's up to you.**
 
+**This project is also 100% free from any asshole.**
+
 ![game boy camera flashable](/Images/Short_board.jpg)
 **Isn't this gorgeous in purple ?**
 
