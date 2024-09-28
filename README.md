@@ -13,7 +13,7 @@ The current release has been produced, assembled, tested and bullet proofed in s
 
 ## Why this fork ? Isn't the main branch enough ?
 
-In short: yes... but no. Let me explain the story first, it's interesting.
+In short: no. Let me explain the story first, it's interesting.
 
 The main branch has been published by 2BitWizard with a minimalistic readme during the summer 2023. The author kindly shipped to me some pre-release boards for feedback (as well as to a bunch of other modders). 2BitWizard and I were both quite active members on some retro stuff related Discord. Unfortunately, 10 months passed before I found time/motivation to dive seriously into the project (I have no excuses, even though I've spent the year dealing with shit). Meanwhile, I lost any way to contact the author as well as the manual to assemble the pre-release boards (which were different enough from the current project to be lost in translation) after leaving progressively all social media for various good reasons.
 
