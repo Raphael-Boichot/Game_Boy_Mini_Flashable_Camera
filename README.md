@@ -4,7 +4,7 @@
 
 **The license (rather the absence of it) allows you to do what you want with your mod: selling it, offering service for doing the mod, modifying it starting from the schematic, it's up to you.**
 
-**The design was made from scratch and people involved have no hidden conflict of interest with any other similar project. we are not here for money**
+**The design was made from scratch and people involved have no hidden conflict of interest with any other similar project. We are not here for money or fame, this project is just a gift to the Game Boy modding community.**
 
 ![game boy camera flashable](/Images/Short_board.jpg)
 **Isn't this gorgeous in purple ?**
