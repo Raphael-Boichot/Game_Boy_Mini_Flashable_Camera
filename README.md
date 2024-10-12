@@ -156,3 +156,5 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me some informations only accessible from the deep web.
 - [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition and sending me prototype boards. If you read this one day, feel free to contact me.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods. Don't forget [donation](https://ko-fi.com/s/a4d7bd649a) if you appreciate this mod.
+
+![](/Images/GBDrug.png)
