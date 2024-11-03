@@ -4,6 +4,8 @@
 
 RAM_CE1 can be connected to ground directly, without the signal inverter. You can use a 1kOhms resistor to make the bridge as it is exactly the good lenght, just be carefull to not short RST and GND in the process. You can get rid of C12 in this case (see [an example here](/Images/While_troubleshooting.png)). My understanding is that the RESET signal is intended to be pulled down by the [battery backup management system](https://github.com/MouseBiteLabs/Game-Boy-MBC3-Cartridge/tree/main/Technical) (not used here because FRAM), to halt **both CPU operation AND writing to SRAM** when voltage is unstable while the Game Boy is powered down. But as it is pulled high on the Game Boy CPU side by default, the signal inverter pulls it down and always allows writing to the FRAM when Game Boy is ON. What a wire to ground does perfectly too. I can find at least as many arguments pro or against grounding RAM_CE1 or using the inverter.
 
+The author has released a 1.5 version on the PCBs (see [original repo](https://github.com/2BitWizard/GB_Mini_Camera)) that just add a jumper (JP1) to do this cleanly.
+
 **Possible placements for a 1kOhms resistor (or jumper wire, or 0 Ohm) to ground RAM_CE1 pin**
 ![](/Alternative_design/Resistor_placement.png)
 
@@ -33,9 +35,3 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 |U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005006991297704.html)|
 
 **These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter). Enjoy !
-
-## Why not doing a new PCB ?
-
-Well, the current one is super well designed and the alternative design super easy to apply on the current PCB, so I have no reason to waste time (free time is the rarest thing I can dispose of now) to redo it from scratch as I do not own the source files. It's not like if the alternative design was a mess of wires to solder on tiny pads.
-
-And it's the 2BitWizard project after all, not mine.
