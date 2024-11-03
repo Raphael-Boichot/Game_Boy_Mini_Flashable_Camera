@@ -4,10 +4,10 @@
 
 RAM_CE1 can be connected to ground directly, without the signal inverter. You can use a 1kOhms resistor to make the bridge as it is exactly the good lenght, just be carefull to not short RST and GND in the process. You can get rid of C12 in this case (see [an example here](/Images/While_troubleshooting.png)). My understanding is that the RESET signal is intended to be pulled down by the [battery backup management system](https://github.com/MouseBiteLabs/Game-Boy-MBC3-Cartridge/tree/main/Technical) (not used here because FRAM), to halt **both CPU operation AND writing to SRAM** when voltage is unstable while the Game Boy is powered down. But as it is pulled high on the Game Boy CPU side by default, the signal inverter pulls it down and always allows writing to the FRAM when Game Boy is ON. What a wire to ground does perfectly too. I can find at least as many arguments pro or against grounding RAM_CE1 or using the inverter.
 
-The author has released a 1.5 version on the PCBs (see [original repo](https://github.com/2BitWizard/GB_Mini_Camera)) that just add a jumper (JP1) to do this cleanly.
-
 **Possible placements for a 1kOhms resistor (or jumper wire, or 0 Ohm) to ground RAM_CE1 pin**
 ![](/Alternative_design/Resistor_placement.png)
+
+The author has released a 1.5 version on the PCBs (see [original repo](https://github.com/2BitWizard/GB_Mini_Camera)) that just adds a jumper (JP1) to do this cleanly.
 
 ## 2. Use only 100 nf caps on the voltage lines
 
