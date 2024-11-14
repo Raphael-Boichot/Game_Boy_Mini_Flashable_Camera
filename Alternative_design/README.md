@@ -7,7 +7,7 @@ RAM_CE1 can be connected to ground directly, without the signal inverter. You ca
 **Possible placements for a 1kOhms resistor (or jumper wire, or 0 Ohm) to ground RAM_CE1 pin**
 ![](/Alternative_design/Resistor_placement.png)
 
-The author has since released a 1.5 version on the PCBs (see [original repo](https://github.com/2BitWizard/GB_Mini_Camera)) that just adds a jumper (JP1) to do this cleanly. I however did not test this release.
+The author has since released a 1.5 version (see [original repo](https://github.com/2BitWizard/GB_Mini_Camera)) that just adds a jumper (JP1) to do this cleanly. I however did not test this release.
 
 ## 2. Use only 100 nf caps on the voltage lines
 
