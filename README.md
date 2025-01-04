@@ -141,6 +141,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - CS lenses are very cheap and good quality on Aliexpress. My go-to lens is a [2.8-12 mm](https://a.aliexpress.com/_EQWPAAN) which covers 99% of my needs. The 5-50 mm is not bad either. To guide your choice, the sensor crop factor is about 10 (5 mm with Game Boy Camera sensor is equivalent to 50 mm with full frame sensor). The original camera plastic lens is about 35 mm equivalent (3.5 mm with the sensor) to give a reference.
 - The mod does reuse only screws from the genuine camera shell, which is clever ! You just need some 5 minutes epoxy for gluing the C/CS mount and nothing else.
 - The mod is **fully reversible.**
+- If you hesitate between the Camera+ and the Camera+ Mini shell, take the Camera+ Mini. It holds very firmly in place with heavy lens mods compared to the Camera+ which center of gravity is a little bit too high for my own taste.
 
 ## Notes while troubleshooting / trying new options
 
