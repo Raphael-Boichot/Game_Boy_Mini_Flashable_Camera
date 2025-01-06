@@ -1,7 +1,7 @@
-# The Game Boy Mini Flashable Camera - a fork
+## ////[Some scammers on PCBWay](https://www.pcbway.com/project/shareproject/Owner_avatar_Game_Boy_Mini_Flashable_Camera_6b41407e.html) have claimed authorship for this project
+## ////Do not give them money, it's a fraudulent licence attribution
 
-## ////Some scammers on PCBWay have claimed authorship for this project
-## ////Do not give them money, it's a fraud, I have no relationship with PCBWay
+# The Game Boy Mini Flashable Camera - a fork
 
 **A license free flashable version of the Game Boy Camera, in a small form factor. A fork I've made to render the project doable without external help. All necessary informations are here. I also propose an alternative simplier design requiring less components.**
 
