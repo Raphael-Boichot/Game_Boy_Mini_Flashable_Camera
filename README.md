@@ -9,7 +9,7 @@
 **The design was made from scratch and people involved have no hidden conflict of interest with any other similar project. We are not here for money or fame, this project is just a gift to the Game Boy modding community.**
 
 ![game boy camera flashable](/Images/Short_board.jpg)
-**Isn't this gorgeous in purple ?**
+**Isn't this gorgeous in purple ?** (Credit: Raphaël BOICHOT)
 
 The current release has been produced, assembled, tested and bullet proofed in sweat and blood. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (GB Operator, Cyclones and other Chinese oddities) were not tested, try them by yourself. Some considerations made in this repository are just related to me being a cheap modder living in Europe and everything else being sold from US/China, so adapt the reading level to your own localization / wealth.
 
@@ -59,13 +59,14 @@ The GB mini flashable camera in short version fits perfectly with the [Camera+ M
 ## Showcase with the short PCB in a Camera+ Mini shell
 
 ![game boy camera flashable](Images/Mini_camera_shell.png)
+(Credit: Raphaël BOICHOT)
 
 The long PCB version has a "neck" that allows mounting it in a regular Game Boy Camera or a [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e) with the regular sensor ribbon as well. **The long neck must be populated with a vertical JST connector only.**
 
 ## Showcase with the long PCB in a regular (but fancy) camera shell
 
 ![game boy camera flashable](Images/Long_board.png)
-Atomic purple case with purple PCB, what could go wrong ? (note the missing signal inverter on purpose, [this is why](/Alternative_design)).
+Atomic purple case with purple PCB, what could go wrong ? (note the missing signal inverter on purpose, [this is why](/Alternative_design)). (Credit: Raphaël BOICHOT)
 
 In case you want to mount the **short PCB** in a regular camera shell (why not after all), you will need a **longer ribbon cable**, and that's where the pain begins. 
 **Aliexpress JST cables are much too thick and stiff for that task** (plus they are just crap, do not buy them) and you must order a genuine JST cable. The only known supplier for genuine cables is Digikey (with prohibitive shipping fees to Europe). Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are just a bit stiffer than the genuine cables but they can sustain the same amount of bending/torsion without loosing connection, in brief they are damn good quality. Funfact: the JST male connectors from Aliexpress, in the other hand, are just perfectly OK.
@@ -77,6 +78,7 @@ Please follow the [building instructions from the original author](/Building_gui
 ## Component location and orientation on PCB
 
 ![game boy camera flashable](Images/Component_placement_w_components.png)
+(Credit: Raphaël BOICHOT)
 
 It's not an interactive BOM but it will do the job. If you are colorblind, please refer to the next table which is the same. **No component other than the MAC-GBD need to be harvested from the original camera PCB.** You can also take a look to my proposal of [alternative design using less components](/Alternative_design).
 
@@ -135,6 +137,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ## Example of pictures taken with the Camera+ Mini shell and a 2.8-12 mm CS lens
 
 ![](Images/Image_example.png)
+(Credit: Raphaël BOICHOT)
 
 ## Notes for ordering the Camera+ Mini shell
 
@@ -153,7 +156,8 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator (I'm quite superstitious when dealing with electronics and there is never too much caps).
 
 ![](Images/While_troubleshooting.png)
-  
+(Credit: Raphaël BOICHOT)
+
 ## Acknowledgements
 
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me some informations only accessible from the deep web.
