@@ -1,5 +1,4 @@
-## ////[Some scammers on PCBWay](https://www.pcbway.com/project/shareproject/Owner_avatar_Game_Boy_Mini_Flashable_Camera_6b41407e.html) have claimed authorship for this project
-## ////Do not give them money, it's a fraudulent licence attribution
+## ////[Some scammers on PCBWay](https://www.pcbway.com/project/shareproject/Owner_avatar_Game_Boy_Mini_Flashable_Camera_6b41407e.html) have claimed authorship for this project. Do not give them money, it's a fraudulent licence attribution !!!
 
 # The Game Boy Mini Flashable Camera - a fork
 
