@@ -53,6 +53,7 @@ I've decided to make my own fork. I like this project.
 The GB mini flashable camera comes in two PCB versions that fit any kind of cool existing shells. It is meant to be as versatile as possible. **The long PCB can be turned into a short PCB by simply breaking the PCB neck so I recommend ordering only the long one as it lets you more shell options.**
 
 ![game boy camera flashable](/Images/PCB_type.png)
+(Credit: Raphaël BOICHOT)
 
 The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon. **With the short PCB, use an horizontal JST connector as clearance is very low.**
 
