@@ -26,15 +26,15 @@ Use only 100 nf capacitors instead of 10 nf capacitors on voltage lines to reduc
 
 |Silkscreen |Value |# |Footprint |Exact reference |Aliexpress link |
 |---------|---------|---------|---------|---------|---------|
-|C1 to C9, C12 to C16, C19	|100nF	|15	|0603 |	Capacitor Ceramic (X7R)|[100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
-|C10, C11, C18	|39pF	|3	|0603 |Capacitor Ceramic (X7R)|[39 pf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
-|C17	|22µF	|1	|1206 |Capacitor Tantalum (≤10%)	|[22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
-|D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 Schottky diode|[BAT54W - SOD-123](https://fr.aliexpress.com/item/1005007021313163.html)|
-|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)|
+|C1 to C9, C12 to C16, C19	|100nF	|15	|0603 |	Capacitor Ceramic (X7R)|[100 nf - 0603](https://www.aliexpress.com/item/1005005690927737.html)|
+|C10, C11, C18	|39pF	|3	|0603 |Capacitor Ceramic (X7R)|[39 pf - 0603](https://www.aliexpress.com/item/1005005690927737.html)|
+|C17	|22µF	|1	|1206 |Capacitor Tantalum (≤10%)	|[22 µf, 16V X7R - 1206](https://www.aliexpress.com/item/1005006022131059.html)|
+|D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 Schottky diode|[BAT54W - SOD-123](https://www.aliexpress.com/item/1005007021313163.html)|
+|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://www.aliexpress.com/item/1005006028155508.html)|
 |R1	|1kΩ	|2	|0603 |Resistor	|[1kOhm - 0603](https://fr.aliexpress.com/item/1005005677654015.html)|
 |U1	|N/A	|1	|TQFP-100 |MAC-GBD gamecart mapper chip|Harvest from cart|
-|U3	|N/A	|1	|TSOP-I-32 |FM28V100-TG FRAM|[FM28V100-TG - TSOP-32](https://fr.aliexpress.com/item/1005007221226758.html)|
-|U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://fr.aliexpress.com/item/1005007543804480.html)|
-|U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005007324498768.html)|
+|U3	|N/A	|1	|TSOP-I-32 |FM28V100-TG FRAM|[FM28V100-TG - TSOP-32](https://www.aliexpress.com/item/1005007221226758.html)|
+|U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://www.aliexpress.com/item/1005005585077756.html)|
+|U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://www.aliexpress.com/item/1005007324498768.html)|
 
 **These modifications were bullet-proofed in any situation I can test, and I have lots of imagination (repeated hard and soft resets, custom and regular roms, combined with DMG, modded DMG, GBC, modded GBC, GB Boy Colour and GBA).** You can cumulate these two mofifications or use them separately, it works too (i.e. 100 nf caps with inverter or 10 nf caps without inverter). Enjoy !
