@@ -85,18 +85,18 @@ It's not an interactive BOM but it will do the job. If you are colorblind, pleas
 
 |Silkscreen |Value |# |Footprint |Exact reference |Aliexpress link |
 |---------|---------|---------|---------|---------|---------|
-|C1	|100nF	|1	|0603 |Capacitor Ceramic (X7R)	|[100 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
-|C2 to C9, C12 to C16, C19	|10nF	|14	|0603 |	Capacitor Ceramic (X7R)|[10 nf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
-|C10, C11, C18	|39pF	|3	|0603 |Capacitor Ceramic (X7R)|[39 pf - 0603](https://fr.aliexpress.com/item/1005005690927737.html)|
-|C17	|22µF	|1	|1206 |Capacitor Tantalum (≤10%)	|[22 µf, 16V X7R - 1206](https://fr.aliexpress.com/item/1005006022131059.html)|
-|D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 Schottky diode|[BAT54W - SOD-123](https://fr.aliexpress.com/item/1005007021313163.html)|
-|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://fr.aliexpress.com/item/1005006028155508.html)|
-|R1	|1kΩ	|1	|0603 |Resistor	|[1kOhm - 0603](https://fr.aliexpress.com/item/1005005677654015.html)|
+|C1	|100nF	|1	|0603 |Capacitor Ceramic (X7R)	|[100 nf - 0603](https://www.aliexpress.com/item/1005005690927737.html)|
+|C2 to C9, C12 to C16, C19	|10nF	|14	|0603 |	Capacitor Ceramic (X7R)|[10 nf - 0603](https://www.aliexpress.com/item/1005005690927737.html)|
+|C10, C11, C18	|39pF	|3	|0603 |Capacitor Ceramic (X7R)|[39 pf - 0603](https://www.aliexpress.com/item/1005005690927737.html)|
+|C17	|22µF	|1	|1206 |Capacitor Tantalum (≤10%)	|[22 µf, 16V X7R - 1206](https://www.aliexpress.com/item/1005006022131059.html)|
+|D1	|N/A	|1	|SOD-123 |BAT54W-HG3-18 Schottky diode|[BAT54W - SOD-123](https://www.aliexpress.com/item/1005007021313163.html)|
+|J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	Camera Connector (male, horizontal or vertical)|[9 pins JST connectors](https://www.aliexpress.com/item/1005006028155508.html)|
+|R1	|1kΩ	|1	|0603 |Resistor	|[1kOhm - 0603](https://www.aliexpress.com/item/1005005677654015.html)|
 |U1	|N/A	|1	|TQFP-100 |MAC-GBD gamecart mapper chip|Harvest from cart|
-|U2	|N/A	|1	|SC-88A-5 |M74VHC1GU04DFT1G Signal inverter|[M74VHC1GU04DFT1G](https://fr.aliexpress.com/item/1005006984696269.html) - see notes before ordering|
-|U3	|N/A	|1	|TSOP-I-32 |FM28V100-TG FRAM|[FM28V100-TG - TSOP-32](https://fr.aliexpress.com/item/1005007221226758.html)|
-|U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://fr.aliexpress.com/item/1005007543804480.html)|
-|U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://fr.aliexpress.com/item/1005007324498768.html)|
+|U2	|N/A	|1	|SC-88A-5 |M74VHC1GU04DFT1G Signal inverter|[M74VHC1GU04DFT1G](https://www.aliexpress.com/item/1005006984696269.html) - see notes before ordering|
+|U3	|N/A	|1	|TSOP-I-32 |FM28V100-TG FRAM|[FM28V100-TG - TSOP-32](https://www.aliexpress.com/item/1005007221226758.html)|
+|U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 3V0 voltage regulator|[NCP718ASN300T1G - SOT-23-5](https://www.aliexpress.com/item/1005007543804480.html)|
+|U5	|N/A	|1	|TSOP-I-40 |AM29F080B	Flash memory|[AM29F080B - TSOP-40](https://www.aliexpress.com/item/1005007324498768.html)|
 
 The PCB was designed on purpose with "big" surface mount components only. Anything smaller than the 0603 footprint would be just sadistic for this kind of leisure project.
 You can report dead Aliexpress links in the **issues**, I will update them ASAP. I did not try to optimize shipping fees here, there is maybe a cheaper combination of sellers.
