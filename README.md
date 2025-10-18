@@ -35,7 +35,7 @@ I've decided to make my own fork. I like this project.
 ## Minimal hardware/skill required in addition to all the BOM before starting anything
 
 - A multimeter with at least a beeping continuity mode for troubleshooting;
-- A 60W soldering iron with a fine tip and a real temperature control. This [kind of puny soldering iron](https://a.aliexpress.com/_EIEo07n) is **NOT** an option to consider unless you want to kill yourself;
+- A 60W soldering iron with a fine tip and a real temperature control. Cheap pencil shape soldering irons are **NOT** an option to consider unless you want to kill yourself;
 - A hot air gun (ideally a reflow station) or a heating plate to desolder the MAC-GBD;
 - Good quality solder wire/flux or solder paste and solder wick;
 - Isopropanol in large quantities to clean all the flux mess;
@@ -126,7 +126,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot.
 - The PCB ENIG finish can be hard to "wet" with solder depending on the flux used. I used a generic "no clean" flux in syringe which was OK in my case (good flux wetting, easy to "no clean" with isopropanol, not greasy and no headache after long soldering sessions contrary to some other el cheapo Aliexpress fluxes in metal containers I used to spread before). AMTECH seems to be a good brand if you need to choose one.
 - Of course, cover the cartridge connector completely with kapton tape during soldering to avoid any solder splats on them. They are basically **impossible** to remove after, so better avoid them.
-- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly under microscope the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a tiny ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it and clean all the pins, so better doing it before becominc crazy).
+- I also recommend to clean with flux/solder wick/isopropanol and unbend very thoroughly under microscope the pins of the MAC-GBD or any recycled chip **before** soldering them to the PCB. A solder bridge due to a metal particle between/below pins (like a tiny ripped pad, own experience...) is very annoying to remove (you basically have to remove the whole chip to get rid of it and clean all the pins, so better doing it before becoming crazy).
 - I've soldered the components in this order: chips (to have clearance), caps/diode/resistor, regulator/inverter, and then the connector. I've cleaned board between each step with isopropanol to get a clear view of the work and check for dry solder joints and obvious shorts.
 - First connection to FlashGBX will always report a bad/unknown mapper/rom but as soon as you try to flash a rom everything will go fine. I recommend flashing a regular rom first (which fills the whole 1MB flash chip) and fill the whole memory with different images for testing. If after reboot all your images are still there without artifacts, you're good to go with your new device !
 - As the populated PCB is full "solid state", it can be cleaned by directly soaking it in isopropanol / hot soapy water and use a toothbrush, the caps risk nothing.
