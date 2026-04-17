@@ -12,7 +12,7 @@
 
 The current release has been produced, assembled, tested and bullet proofed. The board is compatible with any regular camera ROM (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX automatically recognizes it without doing anything. Other flashing devices (GB Operator, Cyclones and other Chinese oddities) were not tested, try them by yourself. Some considerations made in this repository are just related to me being a cheap modder living in Europe and everything else being sold from US/China, so adapt the reading level to your own localization / wealth.
 
-***Note from April 2026: I do not (and won't) keep track of the main fork and its more or less documented updates as the version forked here (1.4) perfectly does the job. The 1.5 (dismissed since) was just the 1.4 with a pad to skip the signal inverer and the current 2.0 is a double bank PCB with added functions which does not have the beautiful simplicity of the 1.4.***
+***Note from April 2026: I do not (and won't) keep track of the main fork and its more or less documented updates as the version forked here (1.4) perfectly does the job. The 1.5 (dismissed since) was just the 1.4 with a pad to skip the signal inverter and the current 2.0 is a double bank PCB with added functions which does not have the beautiful simplicity of the 1.4.***
 
 ## Why this fork ? Isn't the main branch enough ?
 
