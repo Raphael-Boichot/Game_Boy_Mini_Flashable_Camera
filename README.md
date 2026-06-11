@@ -160,6 +160,12 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 ![](Images/While_troubleshooting.png)
 (Credit: Raphaël BOICHOT)
 
+## Some basic glitches easy to spot
+
+Some cold solder joints between the MA-GBD and the SRAM allow the camera to boot and create very predictible glitches. Just look at the image and you know where to reflow !
+
+![](/Flashable_camera_debugger/Glitch_Simulation.gif)
+
 ## Acknowledgements
 
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork by confirming me some educated guesses I had to do and giving me some informations only accessible from the deep web.
