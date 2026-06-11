@@ -162,7 +162,7 @@ Base Material **FR-4**, Layers **2**, Dimensions **Auto-filled**, PCB Qty **As d
 
 ## Some basic glitches easy to spot
 
-Some cold solder joints between the MA-GBD and the SRAM allow the camera to boot and create very predictible glitches. Just look at the image and you know where to reflow !
+Some cold solder joints between the MAC-GBD and the SRAM allow the camera to boot and create very predictible glitches. Just look at the image and you know where to reflow !
 
 ![](/Flashable_camera_debugger/Glitch_Simulation.gif)
 
